@@ -1,0 +1,356 @@
+
+// ********************************************************************************
+/// <summary>
+/// shortcuts - keybindings quick guide
+/// PracticalGuide
+/// created by Mehrdad Solimanimajd on 24.10.2021
+/// </summary>
+/// <created>ʆϒʅ, 24.10.2021</created>
+/// <changed>ʆϒʅ, 03.02.2023</changed>
+// ********************************************************************************
+the folloWing is a sum of hours research in internet and noted to be quick.
+references:		Applications themselves
+
+				https://support.microsoft.com
+				https://shortcutworld.com
+				https://google.com/search
+				https://support.apple.com/en-us/HT201236
+				https://www.digitaltrends.com/computing/mac-keyboard-shortcuts/
+				https://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf
+
+
+
+MacOS -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+windows			CMD .. Q, CMD .. [^] .. W			CTRL .. F4
+				CMD .. [^] .. Tab					CTRL .. F2
+				OP .. CMD .. Space					^ .. CMD .. G
+				F11									CMD .. [OP] .. H, CMD .. M
+				CTRL .. CMD .. F
+
+apps			Apps Key							[OP] .. CMD .. Space
+				CTRL .. OP .. Space					CTRL .. [^] .. Space
+				CTRL .. F3							OP .. CMD .. D
+ 
+tools			OP .. CMD .. F5
+				CTRL .. CMD .. Space
+
+advanced		MC									CTRL .. Up| Do| Le| Ri| 1| 2..
+				CMD .. ,							OP .. Esc
+				^ .. CMD .. 5						CTRL .. F5| F6| F8
+				CTRL .. F1| F7
+				CTRL .. CMD .. Q
+				OP .. CMD .. Esc					CTRL .. Power
+
+dictionary		[OP] .. CMD .. F					[^] .. CMD .. G						[^] .. CMD .. [| ]
+music			OP .. CMD .. Le| Ri| E				^ .. CMD .. M
+
+Finder -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+window			CMD .. N| T| W						^ .. CMD .. \
+
+file			Space,	CMD .. Y					CMD .. O
+				return								CMD .. Delete
+				^ .. CMD .. N
+				CMD .. 	A| C| X| V					CMD .. [^] .. Z
+
+navigation		CMD .. [OP] .. `					CMD .. [| ]
+				CMD .. Up| Do
+				^ .. CMD .. G - FODHCRKISAU			OP .. CMD .. L						CMD .. K
+				OP .. Up| Do						Up| Do| Le| Ri| Characters
+
+views			CMD .. 1| 2| 3| 4					CTRL .. CMD .. 0
+				^ .. CMD .. P						^ .. CMD .. T
+
+tools			CMD .. F							CMD .. ,
+				CMD .. I							CMD .. J
+
+Safari -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+window			CMD .. T| N							CMD .. [^] .. W
+				OP .. CMD .. Le| Ri					^ .. CMD .. [| ]					CTRL .. [^] .. Tab
+				^ .. CMD .. \						CMD .. 1| 2 ..
+
+page			CMD .. L							CMD .. Up| Do
+				pU| pD								Space| ^ .. Space
+				[OP] .. [^] .. Tab					[^] .. CMD .. click| return
+				CMD .. [| ]
+				CMD .. F							CMD .. R							CMD .. .
+				CMD .. D
+
+tools			[OP] .. CMD .. -| +, CMD .. 0		
+				^ .. CMD .. B						CTRL .. CMD .. 1| 2
+				^ .. CMD .. R| L| D
+				CTRL .. F2							OP .. CMD .. B
+
+special			^ .. CMD .. T						OP .. CMD .. W
+				CMD .. Y							OP .. CMD .. L
+ 
+advanced		OP .. CMD .. I						OP .. CMD .. U
+
+VS Code -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+navigation		[CTRL] .. OP .. [^] .. Le| Ri		CMD .. [^] .. Le| Ri
+				FN .. [^] .. Le| Ri| Up| Do
+				CTRL| OP| CMD .. pU| pD
+
+edit			CMD .. I
+				OP .. Up| Do						^ .. OP .. Up| Do
+				^ .. CMD .. K
+				[^] .. CMD .. return
+				[FN] .. Delete						[FN] .. OP| CMD .. Delete
+				CMD .. /							^ .. OP .. A
+				^ .. CTRL .. R						F2
+				CMD .. I							CMD .. [| ]							^ .. OP .. F
+				CMD .. K ^ .. CMD .. Up| Do			CTRL .. OP .. CMD .. Le| Ri			CTRL .. OP .. R
+				[FN] .. ^ .. OP .. CMD .. Up| Do	^ .. CMD .. L, CMD F2
+
+infos			CMD .. K CMD .. I					CMD .. .
+				CTRL .. OP .. Up| Do				CTRL .. OP .. End
+				F12									OP .. F12							CMD .. K F2
+				^ .. OP .. F12						then F4| ^ .. F4
+				CTRL .. R CTRL .. W
+
+editor			^ .. CMD .. O						CMD .. T
+				OP .. O								CMD .. K Enter
+				OP .. CMD .. [| ]					CMD .. K CMD .. L| 0| J
+				CTRL .. [^] .. -					^ .. CMD .. V
+				[OP] .. CMD .. F					[^] .. CMD .. G						^ .. CMD .. F| H
+				OP .. CMD .. C| W| R
+
+editors			OP .. CMD .. Le| Ri					^ .. CMD .. [| ]					CTRL .. [^] .. Tab
+				^ .. CMD .. A						CMD .. K E							OP .. CMD .. 0
+				[OP] .. CMD .. \					CMD .. 1| 2 ..
+				CMD .. K CMD Le| Ri| Up |Do			CTRL .. CMD .. Le| Ri
+
+				CMD .. K .. Le| Ri| Up| Do			CMD .. K CTRL .. CMD .. Le| Ri| Up| Do
+				CMD .. K ^ .. CMD .. Le| Ri
+
+files			CMD .. P -- @, #					CMD .. [^] .. N, W					CMD .. K O
+				^ .. CMD .. T						CMD .. [^] .. S
+
+explorers		CMD .. K E
+				^ .. CMD .. E| D| X| F| H			OP .. CMD .. G
+				CMD .. K R							OP .. CMD .. R
+				CMD .. 0							CMD .. B
+
+develop			CTRL .. F5| F5| ^ .. F5				^ .. CMD .. F5
+				F09| F10							F11| ^ .. F11						^ .. CMD .. B
+				CTRL .. OP .. M, ^ .. CMD .. M		^ .. CMD .. U
+
+tools			CTRL .. [^] .. `					^ .. CMD .. [| ]					^ .. CMD .. C
+				OP .. CMD .. K| L| J| M				CTRL .. CMD .. Up| Do
+				CTRL .. OP .. O						CTRL .. OP .. T
+				^ .. Esc							^ .. CMD .. P
+				CTRL .. OP .. CMD .. Enter			^ .. CMD .. Y
+				CMD .. K CMD .. P					CMD .. L CMD .. O					OP .. H
+				CTRL .. OP .. N
+
+settings		CMD .. ,							CMD .. K CMD .. S, A
+
+XCode -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+navigation		OP| CMD .. [^] .. Le| Ri
+				FN .. [OP] .. Up| Do
+				FN .. [^] .. Le| Ri| Up| Do
+				CTRL .. pU| pD
+
+edit			^ .. Esc							CTRL .. [^] .. .
+				OP .. CMD .. [| ]					CMD .. D
+				[FN] .. Delete						[FN] .. OP| CMD .. Delete
+
+				CMD .. /							^ .. CMD .. A
+				CMD .. I							CMD .. [| ]
+				
+				CMD .. K ^ .. CMD .. Up| Do			CTRL .. OP .. CMD .. Le| Ri			CTRL .. OP .. R
+				[FN] .. ^ .. OP .. CMD .. Up| Do	^ .. CMD .. L, CMD F2
+
+infos			^ .. CTRL .. CMD .. F				^ .. CMD .. O
+
+editor			CMD .. J							OP .. CMD .. Le| Ri
+				[OP] .. CMD .. F					[^] .. [OP] .. CMD .. G				^ .. CMD .. [OP] .. F
+
+editors			^ .. CMD .. [| ]					
+				CTRL .. [OP] .. CMD .. T
+
+files			^ .. CMD .. 1						OP .. CMD .. O
+                OP .. CMD .. A
+
+				CTRL .. CMD .. Up| Do
+				CTRL .. OP .. CMD .. W
+
+explorers		CMD .. 1| 2..						OP .. CMD .. 1| 2..
+				^ .. CMD .. [OP] .. F
+
+develop			CMD .. R, .							^ .. CMD .. K
+				CMD .. \
+
+tools			
+
+settings		CMD .. ,
+
+MacOS-Qt -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+projects		FN .. CTRL .. 1						^ .. CMD .. 1| 2 ..
+
+lines			FN .. CTRL .. Space
+				^ .. CMD .. Up| Do					OP .. CMD .. Up| Do
+
+tools			CTRL .. 1| 2 ..						CMD .. 1| 2 ..
+				CTRL .. M							F4
+				CTRL .. E CTRL W, V
+
+editors			CTRL .. E 0| 1| 2| 3				CTRL .. E O
+				CTRL .. E 4							CTRL .. CMD .. W
+
+sidebars		CTRL .. X| O
+				[^] .. CMD .. 0
+				CTRL .. Y CTRL .. F					CTRL .. OP .. M
+
+build			CMD .. R| B
+
+settings		CMD .. ,
+
+Windows -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+windows			ALT .. Esc| Tab						ALT .. Space
+				Win .. Tab							CTRL .. 1| 2 ..
+				Win .. E							Win .. ,| D
+				Win .. M| Home						F11
+
+start			Win .. Q| S
+				 -- Administrator: CTRL .. ^ .. Enter
+				Win .. Space						Win .. T| A| N| B| X
+
+tools			Win .. V| W| G						Win .. CTRL .. C
+				Win .. =| Esc						Win .. ^ .. C
+				Win .. I							Win .. R
+				 - search: CTRL .. E				 - cmd, tpm.msc, msconfig, netplwiz
+				Win .. C							Win .. .
+
+advanced		^ .. F10							CTRL .. Tab
+				Win .. CTRL .. D| Le| Ri| F4
+				CTRL .. Esc| Win					ALT
+
+File Explore -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+window			CTRL .. N| W						[CTRL] .. Enter
+
+navigation		ALT .. Le| Ri						BackSpace| ALT .. Up
+				CTRL .. F then Esc
+				CTRL .. Up| Do| Le| Ri
+
+views			ALT .. [^] .. P						CTRL .. ^ .. 1| 2 ..
+
+tools			CTRL .. F| E						ALT .. Enter
+				ALT .. D| CTRL .. L					F4
+
+Web Browser -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+window			CTRL .. T| N						CTRL .. [^] .. W
+				CTRL .. pU| pD						CTRL .. [^] .. Tab
+
+page			ALT .. Le| Ri
+				CTRL .. K| E						ALT .. D
+				CTRL .. F							CTRL .. R
+				CTRL .. D
+
+tools			ALT| F10							repeat F6
+				ALT .. F| E							CTRL .. B
+				CTRL .. ^ .. A| D| O				CTRL .. ^ .. P
+
+special			CTRL .. ^ .. T
+				CTRL .. H							CTRL .. J
+
+advanced		^ .. Esc							F12
+				CTRL .. U
+
+VS -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+edit			CTRL .. Space						CTRL .. D							CTRL .. ^ .. L
+				ALT .. Up| Do
+				CTRL .. [^] .. Enter
+				CTRL .. Up| Do						CTRL .. pU| pD
+				^ .. ALT .. Up| Do
+				CTRL .. K CTRL .. D
+				CTRL .. ^ .. /| ;
+				CTRL .. U							CTRL .. ^ .. U
+				CTRL .. W
+				^ .. ALT .. Enter
+
+infos			CTRL .. ^ .. Up| Do					CTRL .. K CTRL .. I					CTRL .. .
+				F12									CTRL .. F12							ALT .. F12
+
+editor			CTRL .. K CTRL .. O| J
+				CTRL .. [^] .. ]					CTRL .. [^] .. -
+				CTRL .. ^ .. V
+				CTRL .. I| CTRL .. ^ .. I
+				CTRL .. F| H						CTRL .. ^ .. F| H
+				CTRL .. K CTRL .. K| N| P| W
+
+files			CTRL .. ;							^ .. Space F
+				CTRL .. ALT .. L| ;					CTRL .. [ S
+
+				CTRL .. ALT .. pU| pD
+				CTRL .. Tab
+				^ .. Space V| H| N| P				CTRL .. ALT .. Le| Ri| D
+				CTRL .. ALT .. Home
+
+develop			CTRL .. F5| F5| ^ .. F5
+				F09| F10| F11						F7| CTRL .. Break
+				CTRL .. \ E
+				CTRL .. ALT .. O| K					ALT .. ^ .. S
+				^ .. F10							CTRL .. ^ .. F9
+
+tools			CTRL .. ~
+				CTRL .. ALT .. S
+				CTRL .. \| T						CTRL .. K CTRL .. H
+				CTRL .. E| T
+				^ .. Esc							ALT .. -
+				CTRL .. ^ .. C
+				CTRL .. Q							ALT .. `
+
+git				CTRL .. 0 CTRL .. G| R
+				CTRL .. '							CTRL .. \ CTRL .. M
+
+Qt -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+projects		CTRL .. O							CTRL .. ^ .. 1| 2 ..
+
+lines			CTRL .. I 							CTRL .. ALT .. Up| Do
+
+tools			CTRL .. 1| 2 ..						ALT .. 1| 2 ..
+				CTRL .. M							F4
+
+sidebars		ALT .. X| O
+				ALT .. 0							ALT .. ^ .. 0
+				ALT .. Y ALT .. F					ALT .. M
+
+build			CTRL .. R| B
+
+VS Code -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+files			CTRL .. P							CTRL .. N| F4
+
+explorers		CTRL .. Q							CTRL .. ^ .. E| G| D| X| F| H
+				CTRL .. ALT .. L
+				CTRL .. 0							ALT .. 0
+				^ .. ALT .. R
+
+editors			CTRL .. pU| pD						CTRL .. K E
+				CTRL .. [^] .. Tab					CTRL .. ^ .. pU| pD
+				CTRL .. ALT .. Le| Ri
+				CTRL .. 1| 2 ..						CTRL .. W
+				CTRL .. K Le| Ri					CTRL .. K CTRL .. Le| Ri
+
+tools			CTRL .. `							CTRL .. ^ .. ALT .. Enter
+				CTRL .. ALT .. 0					CTRL .. ^ .. M
+				CTRL .. ^ .. Y| C					ALT .. L ALT .. O
+
+code			CTRL .. /							F12
+				^ .. ALT .. pU| pD
+				CTRL .. .
+
+settings		CTRL .. ,							CTRL .. K CTRL .. S
+
+Notepad++ -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+files			CTRL .. pU| pD
+				CTRL .. Tab							CTRL .. ^ .. Tab
+				CTRL .. ^ .. pU| pD
+				CTRL .. N| W						CTRL .. ^ .. T
+
+editor			CTRL .. ALT .. Enter				CTRL .. ALT .. ^ .. Enter
+				CTRL .. D							CTRL .. ^ .. L| Up| Do
+
+tools			CTRL .. F| H						CTRL .. ^ .. F
+				F12									CTRL .. R
+
+special			^ .. ALT .. Space
