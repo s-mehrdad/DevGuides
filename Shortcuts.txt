@@ -3,10 +3,10 @@
 /// <summary>
 /// shortcuts - keybindings quick guide
 /// PracticalGuide
-/// created by Mehrdad Solimanimajd on 24.10.2021
+/// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 19.02.2023</changed>
+/// <changed>ʆϒʅ, 14.03.2023</changed>
 // ********************************************************************************
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -37,7 +37,7 @@ tools           OP .. CMD .. F5
 advanced        MC                                  CTRL .. Up| Do| Le| Ri| 1| 2..
                 CMD .. ,                            OP .. Esc
                 ^ .. CMD .. 5                       CTRL .. F5| F6| F8
-                FN .. C, N, Q, A, H, D, E, F
+                FN .. C| N| Q| A| H| D| E| F
                 CTRL .. F1| F7
                 CTRL .. CMD .. Q
                 OP .. CMD .. Esc                    CTRL .. Power
@@ -68,7 +68,7 @@ tools           CMD .. F                            CMD .. ,
                 CMD .. I                            CMD .. J
 
 Safari -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-window          CMD .. T| N                         CMD .. [^] .. W
+window          CMD .. T| N                         [^]| [OP] .. CMD .. W
                 OP .. CMD .. Le| Ri                 ^ .. CMD .. [| ]
                 CTRL .. [^] .. Tab
                 ^ .. CMD .. \                       CMD .. 1| 2 ..
@@ -77,18 +77,17 @@ page            CMD .. L
                 FN .. Up| Do| Le| Ri                Space| ^ .. Space
                 [OP] .. [^] .. Tab                  [^] .. CMD .. click| return
                 CMD .. [| ], Le| Ri
-                CMD .. F                            CMD .. R
-                CMD .. .
-                CMD .. D
+                CMD .. F                            CMD .. D
+                CMD .. R                            CMD .. .
 
 tools           [OP] .. CMD .. -| +, CMD .. 0
                 ^ .. CMD .. B| L                    CTRL .. CMD .. 1| 2
                 ^ .. CMD .. R| D
                 CTRL .. F2                          OP .. CMD .. B
 
-special         ^ .. CMD .. T                       OP .. CMD .. W
+special         ^ .. CMD .. T
                 CMD .. Y                            OP .. CMD .. L
- 
+
 advanced        OP .. CMD .. I                      OP .. CMD .. U
                 CTRL .. CMD .. R
 
@@ -99,50 +98,59 @@ navigation      [CTRL] .. OP .. [^] .. Le| Ri       CMD .. [^] .. Le| Ri
 
 edit            CMD .. I
                 OP .. Up| Do                        ^ .. OP .. Up| Do
-                ^ .. CMD .. K
-                [^] .. CMD .. return
+                ^ .. CMD .. K                       [^] .. CMD .. return
                 [FN] .. Delete                      [FN] .. OP| CMD .. Delete
                 CMD .. /                            ^ .. OP .. A
+
                 ^ .. CTRL .. R                      F2
+
                 CTRL .. I                           CMD .. [| ]
                 CTRL .. OP .. F
+
                 CMD .. K ^ .. CMD .. Up| Do         CTRL .. OP .. CMD .. Le| Ri
                 CTRL .. OP .. R
-                [FN] .. ^ .. OP .. CMD .. Up| Do    ^ .. CMD .. L, CMD F2
+
+                [FN] .. [^] .. OP .. CMD .. Up| Do 
+                ^ .. CMD .. L, CMD F2
 
 infos           CMD .. K CMD .. I                   CMD .. .
                 CTRL .. OP .. Up| Do                CTRL .. OP .. End
+
                 F12
                 OP .. F12                           CMD .. K F2
                 ^ .. OP .. F12 then F4| ^ .. F4
+
                 CTRL .. R CTRL .. W                 OP .. Z
 
 editor          ^ .. CMD .. O                       CMD .. T
                 OP .. O                             CMD .. K Enter
-                OP .. CMD .. [| ]                   CMD .. K CMD .. L| 0| J
+                ^ .. [OP] .. CMD .. \
                 CTRL .. [^] .. -                    ^ .. CMD .. V
+                OP .. CMD .. [| ]                   CMD .. K CMD .. L| 0| J
+
                 [OP] .. CMD .. F                    [^] .. CMD .. G
                 ^ .. CMD .. F| H
                 OP .. CMD .. C| W| R
 
 editors         OP .. CMD .. Le| Ri                 ^ .. CMD .. [| ]
                 CTRL .. [^] .. Tab
-                ^ .. CMD .. A                       OP .. CMD .. 0
-                CMD .. K CMD Le| Ri| Up |Do         CMD .. K ^ .. CMD .. Le| Ri
-                [OP] .. CMD .. \                    CMD .. 1| 2 ..
-                CTRL .. CMD .. Le| Ri
 
+                ^ .. CMD .. A                       CTRL| OP .. CMD .. 0
+                CMD .. 1| 2 ..                      CMD .. K CMD Le| Ri| Up |Do
+                [OP] .. CMD .. \
+                CTRL .. CMD .. Le| Ri               CMD .. K ^ .. CMD .. Le| Ri
+
+                CMD .. K .. Le| Ri| Up| Do          CMD .. K O
                 CMD .. K CTRL .. CMD .. Le| Ri| Up| Do
-                CMD .. K .. Le| Ri| Up| Do
 
-files           CMD .. P -- @, #                    CMD .. [^] .. N, W
-                CMD .. K O
+files           CMD .. P -- @, #, >                 CMD .. [^] .. N| W
                 ^ .. CMD .. T                       CMD .. [^] .. S
 
 explorers       CMD .. K E
                 ^ .. CMD .. E| D| X| F| H           OP .. CMD .. G
+
+                CMD .. 0| B
                 CMD .. K R                          OP .. CMD .. R
-                CMD .. 0                            CMD .. B
 
 develop         CTRL .. F5| F5| ^ .. F5             ^ .. CMD .. F5
                 F09| F10                            F11| ^ .. F11
@@ -152,13 +160,14 @@ develop         CTRL .. F5| F5| ^ .. F5             ^ .. CMD .. F5
 tools           CTRL .. [^] .. `                    ^ .. CMD .. Y
                 ^ .. CMD .. [| ]                    ^ .. Esc
                 CTRL .. CMD .. Up| Do               CTRL .. OP .. CMD .. Enter
+
                 OP .. CMD .. K| L| J| M
                 CTRL .. OP .. O                     CTRL .. OP .. T
                 CMD .. K CMD .. P                   CMD .. L CMD .. O
                 ^ .. CMD .. C                       OP .. H
                 ^ .. CMD .. P                       CTRL .. OP .. N
 
-settings        CMD .. ,                            CMD .. K CMD .. S, A
+settings        CMD .. ,                            CMD .. K CMD .. S| A
 
 XCode -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 navigation      OP| CMD .. [^] .. Le| Ri            FN .. [OP] .. Up| Do
@@ -173,35 +182,39 @@ edit            ^ .. Esc                            CTRL .. [^] .. .
                 ^ .. CMD .. A
                 CTRL .. I                           CMD .. [| ]
                 CTRL .. OP .. R
-                ^ .. CTRL .. Up| Do                 [^] .. OP .. CMD .. E
+                OP .. CMD .. Up| Do                 [^] .. OP .. CMD .. E
+                CTRL .. OP .. Up| Do
 
 infos           ^ .. CMD .. O
-                CTRL .. CMD .. J                    CTRL .. ^ .. CMD .. F
+                CTRL .. CMD .. J                    ^ .. CTRL .. CMD .. F
 
-editor          CMD .. J                            OP .. CMD .. Le| Ri
-                [OP] .. CMD .. F                    [^] .. [OP] .. CMD .. G
-                ^ .. CMD .. [OP] .. F
+editor          [^] .. CMD .. J
+                OP .. CMD .. Le| Ri                 CTRL .. CMD .. Up| Do
                 CTRL .. CMD .. Le| Ri
+                [OP] .. CMD .. F                    [^] .. [OP] .. CMD .. G
+                ^ .. [OP] .. CMD .. F
 
-editors         ^ .. CMD .. [| ]                    CTRL .. `
-                CTRL .. [OP] .. CMD .. T
+editors         ^ .. CMD .. [| ]                    [^] .. OP .. CMD .. `
+                CTRL .. [OP] .. CMD .. T            ^ .. CTRL .. CMD .. W
+                CTRL .. `
 
-files           OP .. CMD .. O                      [OP] .. CMD .. W
+                [^] .. CMD .. T                     ^ .. CMD .. W
+
+files           OP .. CMD .. O                      [OP] .. [CTRL] .. CMD .. W
                 ^ .. CMD .. 1                       CTRL .. OP .. CMD .. W
                 OP .. CMD .. A
-
-                CTRL .. CMD .. Up| Do
 
 explorers       CMD .. 0| 1| 2 ..                   OP .. CMD .. 0| 1| 2| 3
                 ^ .. CMD .. Y| C
                 ^ .. CMD .. [OP] .. F
 
-develop         CMD .. R, .                         ^ .. CMD .. K
+develop         CMD .. R| .                         ^ .. CMD .. K
                 [OP] .. CMD .. \                    CMD .. Y
                 CTRL .. CMD .. Y| C                 F6, F7, F8
                 CTRL .. 0
 
-tools           ^ .. CTRL .. CMD .. M
+tools           ^ .. CTRL .. CMD .. M| L| T| /
+                OP .. CMD .. T                      ^ .. CMD .. 0| F
 
 settings        CMD .. ,
 
@@ -210,23 +223,28 @@ navigation      OP| CMD .. [^] .. Le| Ri            FN .. ^ .. Up| Do| Le| Ri
                 CMD .. Up| Do
 
 projects        FN .. CTRL .. 1                     FN .. ^ .. CMD .. 1| 2 ..
-                CTRL .. OP .. CMD .. W
+                [OP] .. CMD .. W                    CTRL .. OP .. CMD .. W
 
-edit            FN .. CTRL .. Space
+edit            FN .. CTRL .. Space, CTRL .. OP .. I
                 ^ .. CMD .. Up| Do                  OP .. CMD .. Up| Do
+                F4, OP .. O
                 CTRL .. [^] .. U
 
 tools           CTRL .. 1| 2 ..                     CMD .. 1| 2 ..
-                CTRL .. M                           F4, OP .. O
-                CTRL .. E CTRL W, V
+                CTRL .. M
+                CTRL .. E CTRL W| V
+
+editor          [^] .. CMD .. [| ]                  CMD .. U
+                ^ .. <| >
 
 editors         OP .. [^] .. Tab
-                CTRL .. E 0| 1| 2| 3                CTRL .. E O
+                CTRL .. E 2| 3                      CTRL .. E O| I
+                CTRL .. E 0| 1
                 CTRL .. E 4                         CTRL .. CMD .. W
 
 sidebars        CTRL .. X| O
                 [^] .. CMD .. 0
-                CTRL .. Y CTRL .. F                 CTRL .. OP .. M
+                CTRL .. Y CTRL .. F, S              CTRL .. OP .. M
 
 develop         CMD .. R| B                         CMD .. Y
 
