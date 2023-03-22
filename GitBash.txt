@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 26.01.2019
 /// </summary>
 /// <created>ʆϒʅ, 26.01.2019</created>
-/// <changed>ʆϒʅ, 15.03.2023</changed>
+/// <changed>ʆϒʅ, 22.03.2023</changed>
 // ********************************************************************************
 
 the following is a sum of hours research in internet and noted to be quick. If you aren't already know the git concepts, the following isn't for you.
@@ -74,7 +74,7 @@ SSH keys:
 
                     test                    ssh -T git@github.com
                                             ssh -T git@ssh.dev.azure.com
-            
+
 Gitbub commit/tag signature:
                     GPG (private development) or S/MIME(organization)
                     //todo
