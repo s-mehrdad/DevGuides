@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 26.01.2019
 /// </summary>
 /// <created>ʆϒʅ, 26.01.2019</created>
-/// <changed>ʆϒʅ, 22.03.2023</changed>
+/// <changed>ʆϒʅ, 13.04.2023</changed>
 // ********************************************************************************
 
 the following is a sum of hours research in internet and noted to be quick. If you aren't already know the git concepts, the following isn't for you.
@@ -64,7 +64,7 @@ SSH keys:
                     generate                ssh-keygen -t ed25519 -C "email address"
                                             ssh-keygen -t rsa -b 4096 -C "email address"
                       ~on macOS or Linux it may be needed to insert the hardware security key
-                    copy                    pbcopy < ~/.shh/ ... .pub
+                    copy                    pbcopy < ~/.ssh/ ... .pub
 
                     ssh-agent (launched)    eval "(ssh-agent -s)"
                                             ssh-add ~/.ssh/id_ed25519
@@ -75,9 +75,12 @@ SSH keys:
                     test                    ssh -T git@github.com
                                             ssh -T git@ssh.dev.azure.com
 
-Gitbub commit/tag signature:
-                    GPG (private development) or S/MIME(organization)
-                    //todo
+signing keys commit/tag signature:
+                    SSH (most simple)
+                    GPG (private development)
+                    S/MIME (organization)
+                    check
+                    //TODO
 
 clean operations:
                     repository              git gc --auto
@@ -97,6 +100,13 @@ configuration:
                     author                  git config --global user.name "name"
                                             git config --global user.email "email"
 
+                    ssh signing             git config --global gpg.format ssh
+                                            git config --global commit.gpgsign true
+                                            git config --global user.signingkey pathToKey.pub
+
+                    gpg signing             git config --global commit.gpgsign true
+                                            git config --global user.signingkey [shortId]
+
                     check                   git config --list
 
 repository:
@@ -108,7 +118,7 @@ repository:
                                             git touch README
                                             git add README
                                             git commit -m 'Initialization'
-                                            git push origin master
+                                            git push [--force] origin master
 
 snapshotting:
                     status                  git status -s
@@ -125,7 +135,7 @@ snapshotting:
                     commit                  git commit -m 'comment'
                                             git commit -am 'comment' (auto staging)
 
-                    commit modification     git commit --amend -m 'new-comment'
+                    commit modification     git commit [--amend] -m 'new-comment' -S
                       ~new changes can be staged beforehand
                       ~modified commit must be force pushed
 
@@ -134,7 +144,7 @@ snapshotting:
 
 reset:
                     un-stage a file         git reset head -- file
-                    undo last commit        git reset --soft head
+                    undo last commit        git reset --soft HEAD^
                     undo and erase changes  git reset --hard head
 
 staged modification:
@@ -162,9 +172,6 @@ execute commands:
                     find . -maxdepth 1 -type d \( ! -name . \) -exec sh -c 'cd -p "$0" && git remote rename origin origin-gh && pwd' {} \;
                     ls -d */ | xargs -I {} bash -c "cd {} && git remote rename origin origin-gh | pwd"
                     for dir in ./*; do (cd "$dir" && git remote rename origin origin-gh && pwd); done
-----------------------------------------------------------------------
-deleting wrongly committed:
-                    reset to the right commit then:     git push --force origin master
 ----------------------------------------------------------------------
 finding big files:
                     find . -type f \( ! -regex ".*/\..*" \) -print | xargs ls -l | sort -k5,5rn | head
