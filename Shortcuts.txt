@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 12.05.2023</changed>
+/// <changed>ʆϒʅ, 23.05.2023</changed>
 // ********************************************************************************
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -244,13 +244,14 @@ develop         CMD .. R| .                         ^ .. CMD .. K
 
 settings        CMD .. ,
 
-MacOS-Qt -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+Qt -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 navigation      OP| CMD .. [^] .. Le| Ri
                 CMD .. Up| Do
                 FN .. ^ .. Up| Do| Le| Ri
 
-edit            FN .. CTRL .. space, OP .. space
+edit            FN .. CTRL .. space
                 ^ .. CMD .. Up| Do                  OP .. CMD .. Up| Do
+                CMD .. I
 
                 CTRL .. [^] .. U
 
@@ -259,7 +260,9 @@ info            CMD .. K
                 ^ .. CTRL .. C                      CTRL .. I| /
 
 editor          OP .. O
-                ^ .. CMD .. [| ]                    CMD .. U
+                [^] .. CMD .. [| ]                  CMD .. U
+
+                F4
                 OP .. CMD .. Le| Ri
 
                 CMD .. <| >                         ^ .. OP .. CMD .. Up
@@ -272,14 +275,17 @@ editors         OP .. [^] .. Tab
                 CTRL .. E 0| 1
                 CTRL .. E 4                         CTRL .. CMD .. W
 
-files           [OP] .. CMD .. W                    CTRL .. OP .. CMD .. W
+space           OP .. N| O
+                [OP] .. CMD .. W                    CTRL .. OP .. CMD .. W
 
 views           FN .. CTRL .. 1                     FN .. ^ .. CMD .. 1| 2 ..
                 CTRL .. X| O
                 [^] .. CMD .. 0
                 CTRL .. S                           CTRL .. OP .. M
+                CTRL .. ^ .. I
 
 tools           CTRL .. 1| 2 ..                     CMD .. 1| 2 ..
+                CMD .. T
                 [^] .. CTRL .. M                    CTRL .. ,| .
                 CTRL .. E CTRL W| V
 
@@ -530,61 +536,53 @@ develop         CTRL .. F5| F5| ^ .. F5             CTRL .. B
                 CTRL .. ^ .. F9
 
 Qt -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-projects        CTRL .. O                           CTRL .. ^ .. 1| 2 ..
-
-edit            CTRL .. I                           CTRL .. ALT .. Up| Do
-
-tools           CTRL .. 1| 2 ..                     ALT .. 1| 2 ..
-                CTRL .. M                           F4
-
-sidebars        ALT .. X| O
-                ALT .. 0                            ALT .. ^ .. 0
-                ALT .. Y ALT .. F                   ALT .. M
-
-develop         CTRL .. R| B
-navigation      OP| CMD .. [^] .. Le| Ri
-                CMD .. Up| Do
+navigation      CTRL .. [^] .. Le| Ri
+                CTRL .. Up| Do
                 FN .. ^ .. Up| Do| Le| Ri
 
-edit            FN .. CTRL .. space, OP .. space
-                ^ .. CMD .. Up| Do                  OP .. CMD .. Up| Do
+edit            CTRL .. space
+                ^ .. CTRL .. Up| Do                 CTRL .. ALT .. Up| Do
+                CTRL .. I
 
-                CTRL .. [^] .. U
+                ALT .. [^] .. U
 
-info            CMD .. K
+info            CTRL .. K
                 [^] .. F2                           CTRL .. E [^] .. F2
-                ^ .. CTRL .. C                      CTRL .. I| /
+                ^ .. CTRL .. C| I| /
 
-editor          OP .. O
-                ^ .. CMD .. [| ]                    CMD .. U
-                OP .. CMD .. Le| Ri
+editor          ALT .. O
+                [^] .. CTRL .. [| ]                 CTRL .. U
 
-                CMD .. <| >                         ^ .. OP .. CMD .. Up
+                F4
+                ALT .. Le| Ri
 
-                [^] .. CMD .. F                     OP .. CMD .. return
-                [^] .. CMD .. G
+                CTRL .. <| >                        ^ .. CTRL .. ALT .. Up
 
-editors         OP .. [^] .. Tab
+                [^] .. CTRL .. F                    OP .. CMD .. return
+                [^] .. F3
+
+editors         CTRL .. [^] .. Tab
                 CTRL .. E 2| 3                      CTRL .. E O| I
                 CTRL .. E 0| 1
-                CTRL .. E 4                         CTRL .. CMD .. W
+                CTRL .. E 4
 
-files           [OP] .. CMD .. W                    CTRL .. OP .. CMD .. W
+space           CTRL .. N| O
+                [^] .. CTRL .. W                    CTRL .. ^ .. ALT .. W
 
-views           FN .. CTRL .. 1                     FN .. ^ .. CMD .. 1| 2 ..
-                CTRL .. X| O
-                [^] .. CMD .. 0
-                CTRL .. S                           CTRL .. OP .. M
+views           CTRL .. 1                           ^ .. CTRL .. 1| 2 ..
+                ALT .. X| O
+                [^] .. ALT .. 0
+                ALT .. Y                            ALT .. M
+                CTRL .. ^ .. I
 
-tools           CTRL .. 1| 2 ..                     CMD .. 1| 2 ..
+tools           CTRL .. 1| 2 ..                     ALT .. 1| 2 ..
+                CTRL .. T
                 [^] .. CTRL .. M                    CTRL .. ,| .
                 CTRL .. E CTRL W| V
 
-develop         CMD .. R| B                         CMD .. Y
-                F08| CMD .. F08
-                ^ .. CMD .. O| I| T
-
-settings        CMD .. ,
+develop         CTRL .. R| B                        F5
+                F09| CTRL .. F09
+                F10                                 [^] .. F11
 
 Notepad++ -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 files           CTRL .. pU| pD
