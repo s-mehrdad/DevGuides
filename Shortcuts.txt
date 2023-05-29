@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 23.05.2023</changed>
+/// <changed>ʆϒʅ, 29.05.2023</changed>
 // ********************************************************************************
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -28,9 +28,10 @@ windows         CMD .. Q, CMD .. [^] .. W           CTRL .. F4
                 CTRL .. CMD .. F
 
 apps            Apps Key                            [OP] .. CMD .. space
+                CTRL .. CMD .. D
                 CTRL .. OP .. space                 CTRL .. [^] .. space
                 CTRL .. F3                          OP .. CMD .. D
- 
+
 tools           OP .. CMD .. F5
                 CTRL .. CMD .. space
 
@@ -585,12 +586,15 @@ develop         CTRL .. R| B                        F5
                 F10                                 [^] .. F11
 
 Notepad++ -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-files           CTRL .. pU| pD
-                CTRL .. Tab                         CTRL .. ^ .. Tab
-                CTRL .. ^ .. pU| pD
+navigation      CTRL .. [^] .. Le| Ri
+                CTRL .. Up| Do                      FN .. [^] .. Up| Do| Le| Ri
+                FN .. CTRL .. [^] .. Le| Ri
+
+documents       CTRL .. [^] .. pU| pD
+                CTRL .. [^] .. Tab
                 CTRL .. N| W                        CTRL .. ^ .. T
 
-editor          CTRL .. ALT .. enter                CTRL .. ALT .. ^ .. enter
+edit            CTRL .. ALT .. enter                CTRL .. ALT .. ^ .. enter
                 CTRL .. D                           CTRL .. ^ .. L| Up| Do
 
 tools           CTRL .. F| H                        CTRL .. ^ .. F

@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 23.04.2022
 /// </summary>
 /// <created>ʆϒʅ, 23.04.2022</created>
-/// <changed>ʆϒʅ, 15.03.2023</changed>
+/// <changed>ʆϒʅ, 29.05.2023</changed>
 // ********************************************************************************
 
 the following is a sum of hours research in internet and noted to be quick.
@@ -74,3 +74,9 @@ PowerShell:
 Windows:                        ./vcpkg help
 
 MacOs:                          brew help
+                                brew services
+
+Loops:                          for d in ./*| {0..3}
+                                foreach
+
+ANSI:                           \033[90;40m
