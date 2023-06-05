@@ -92,6 +92,29 @@ special         ^ .. CMD .. T
 advanced        OP .. CMD .. I                      OP .. CMD .. U
                 CTRL .. CMD .. R
 
+Chrome, Edge -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+window          CMD .. T| N                         CMD .. [^] .. W
+                OP .. CMD .. Le| Ri                 ^ .. CMD .. [| ]
+                CTRL .. [^] .. pU| pD
+                CTRL .. [^] .. Tab
+                CTRL .. 1| 2 ..
+
+page            CTRL .. K| E| L
+                FN .. Up| Do| Le| Ri                space| ^ .. space
+                CMD .. [| Le| ]| Ri
+                CMD .. F                            CMD .. R
+                CMD .. D
+
+tools           CTRL .. F5
+                ALT .. F| E                         CTRL .. B
+                ^ .. CMD .. P
+                ^ .. CMD .. A| D| O                 CTRL .. ^ .. P
+
+special         ^ .. CMD .. T| B                    OP .. CMD .. B
+                CMD .. Y                            ^ .. CMD .. J
+
+advanced        ^ .. Esc                            OP .. CMD .. I| U
+
 VS Code -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 navigation      [CTRL] .. OP .. [^] .. Le| Ri       CMD .. [^] .. Le| Ri
                 CTRL| OP| CMD .. pU| pD             CMD .. [^] .. Up| Do
@@ -335,7 +358,7 @@ tools           CTRL .. F| E                        ALT .. enter
 
 Chrome, Edge -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 window          CTRL .. T| N                        CTRL .. [^] .. W
-                CTRL .. pU| pD                      CTRL .. [^] .. Tab
+                CTRL .. [^] .. pU| pD               CTRL .. [^] .. Tab
                 CTRL .. 1| 2 ..
 
 page            CTRL .. K| E| L                     ALT .. D
