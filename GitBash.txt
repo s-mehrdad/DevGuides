@@ -1,13 +1,13 @@
 
-// ********************************************************************************
+// ===========================================================================
 /// <summary>
 /// Git quick guide
 /// PracticalGuide
 /// created by Mehrdad Soleimanimajd on 26.01.2019
 /// </summary>
 /// <created>ʆϒʅ, 26.01.2019</created>
-/// <changed>ʆϒʅ, 13.04.2023</changed>
-// ********************************************************************************
+/// <changed>ʆϒʅ, 03.07.2023</changed>
+// ===========================================================================
 
 the following is a sum of hours research in internet and noted to be quick. If you aren't already know the git concepts, the following isn't for you.
 references:     https://git.github.io/git-reference

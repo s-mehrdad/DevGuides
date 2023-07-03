@@ -1,13 +1,13 @@
 
-// ********************************************************************************
+// ===========================================================================
 /// <summary>
 /// PowerShell - CMD - Terminal quick guide
 /// PracticalGuide
 /// created by Mehrdad Soleimanimajd on 23.04.2022
 /// </summary>
 /// <created>ʆϒʅ, 23.04.2022</created>
-/// <changed>ʆϒʅ, 29.05.2023</changed>
-// ********************************************************************************
+/// <changed>ʆϒʅ, 03.07.2023</changed>
+// ===========================================================================
 
 the following is a sum of hours research in internet and noted to be quick.
 references:     https://google.com/search
@@ -71,12 +71,22 @@ PowerShell:
 
                                 DotNet tool install --global PowerShell
 
-Windows:                        ./vcpkg help
+Notes:
+        Windows:                ./vcpkg help
 
-MacOs:                          brew help
+                                Tab
+                                CTRL .. R, CTRL .. S
+                                doskey /history
+
+        MacOs:                  brew help
                                 brew services
 
-Loops:                          for d in ./*| {0..3}
+                                Tab
+                                CTRL .. R
+                                CTRL .. C| W| U
+
+        Loops:                  for d in ./*| {0..3}
                                 foreach
 
 ANSI:                           \033[90;40m
+Windows-ANSI                    `e[...

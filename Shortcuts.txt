@@ -1,13 +1,13 @@
 
-// ********************************************************************************
+// ===========================================================================
 /// <summary>
 /// shortcuts - keybindings quick guide
 /// PracticalGuide
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 29.05.2023</changed>
-// ********************************************************************************
+/// <changed>ʆϒʅ, 03.07.2023</changed>
+// ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
 
@@ -469,13 +469,13 @@ settings        ^ .. F10                            CTRL .. K CTRL .. S| A| E
                 CTRL .. ,                            ^ .. F9
                 CTRL .. K CTRL .. T
 
-VS -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+VS -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 navigation      CTRL .. [^] .. Le| Ri
                 CTRL .. [FN] .. Up| Do              FN .. [^] .. Up| Do| Le| Ri
                 FN .. CTRL .. [^] .. Le| Ri
 
-edit            CTRL .. ALT .. T                    CTRL .. J
-                CTRL .. space                       ALT .. Ri
+edit            CTRL .. space                       ALT .. Ri
+                CTRL .. ALT .. T| CTRL .. J
                 Tab                                 CTRL .. ALT .. space
                 ALT .. Up| Do                       CTRL .. D
                 CTRL .. E [CTRL] .. V
