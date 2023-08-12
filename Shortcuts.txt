@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 03.07.2023</changed>
+/// <changed>ʆϒʅ, 12.08.2023</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -20,7 +20,312 @@ references:     Applications themselves
 
 
 
-MacOS -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+Windows -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+windows         ALT .. Esc| Tab                     ALT .. space
+                Win .. Tab                          CTRL .. 1| 2 ..
+                Win .. E                            Win .. ,| D
+                Win .. M| Home                      F11
+
+start           Win .. Q| S
+                 -- Administrator: CTRL .. ^ .. enter
+                Win .. space                        Win .. T| A| N| B| X
+
+tools           Win .. V| W| G                      Win .. CTRL .. C
+                Win .. ^ .. C
+
+                Win .. =| Esc                       Win .. +| -
+                CTRL .. ALT .. D| F| L
+
+                Win .. I                            Win .. R
+                 - search: CTRL .. E                 - cmd, tpm.msc, msconfig, netplwiz
+                Win .. C                            Win .. .
+
+advanced        ^ .. F10                            CTRL .. Tab
+                Win .. CTRL .. D| Le| Ri| F4
+                CTRL .. Esc| Win                    ALT
+
+File Explore -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+window          CTRL .. N| W                        [CTRL] .. enter
+
+navigation      CTRL .. ^ .. Tab
+                ALT .. Le| Ri                       Backspace| ALT .. Up
+                CTRL .. F then Esc
+                CTRL .. Up| Do| Le| Ri
+
+views           ALT .. [^] .. P                     CTRL .. ^ .. 1| 2 ..
+
+tools           CTRL .. F| E                        ALT .. enter
+                ALT .. D| CTRL .. L                 F4
+
+Chrome, Edge -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+window          CTRL .. T| N                        CTRL .. [^] .. W
+                CTRL .. [^] .. pU| pD               CTRL .. [^] .. Tab
+                CTRL .. 1| 2 ..
+
+page            CTRL .. K| E| L                     ALT .. D
+                FN .. Up| Do| Le| Ri                space| ^ .. space
+                ALT .. Le| Ri
+                CTRL .. F                           CTRL .. R
+                CTRL .. D
+
+tools           ALT| F10 repeat F6
+                ALT .. F| E                         CTRL .. B
+                CTRL .. ^ .. A| D| O                CTRL .. ^ .. P
+
+special         CTRL .. ^ .. T
+                CTRL .. H                           CTRL .. J
+
+advanced        ^ .. Esc                            F12
+                CTRL .. U
+
+VS Code -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+navigation      CTRL .. [^] .. Le| Ri               CTRL .. ALT .. / [^] .. Ri| Le
+                CTRL .. Up| Do                      FN .. [^] .. Up| Do| Le| Ri
+                FN .. CTRL .. [^] .. Up| Do| Le| Ri
+
+edit            CTRL .. I[2x]
+                CTRL .. [ALT] .. Space[2x]
+                ALT .. Up| Do                       ^ .. ALT .. Up| Do
+
+                [^] .. CTRL .. enter
+                [CTRL] .. [ALT] .. Delete           [CTRL] .. [ALT] .. Backspace
+
+                CTRL .. [^] .. /                    ^ .. ALT .. A
+                ^ .. CTRL .. R                      F2
+
+                CTRL .. ALT .. I                    CTRL .. [| ]
+                ^ .. ALT .. F
+
+                [^] .. ALT .. U                     CTRL .. FN .. ALT .. Le| Ri
+                CTRL .. ^ .. ALT .. /
+
+                CTRL .. ALT .. Up| Do
+                CTRL .. ^ .. ALT .. Le| Ri| Up| Do| pU| pD
+                ^ .. CTRL .. L, CTRL F2
+
+infos           CTRL .. K CTRL .. I                 CTRL .. .
+                [^] .. F7                           ALT .. F7
+
+                [CTRL] .. F12
+                ALT .. F12                          CTRL .. K F2
+                ^ .. ALT .. F12 then F4| ^ .. F4
+
+                ALT .. H
+                CTRL .. D CTRL .. D| I              CTRL .. D CTRL .. R| T| W
+                ALT .. [^] .. F3
+
+editor          CTRL .. ^ .. A                      CTRL .. K enter
+                CTRL| ^ .. ALT .. 0
+
+                ALT .. O
+                CTRL .. [^] .. '                    CTRL .. ALT .. '
+                ALT .. Le| Ri                       ^ .. CTRL .. V
+
+                CTRL .. ^ .. [| ]                   CTRL .. K CTRL .. L| 0| J
+
+                CTRL .. F| H                        [CTRL] .. [^] .. F3
+                ^ .. CTRL .. F| H
+                ALT .. C| W| R| P
+
+files           CTRL .. [^] .. N| W
+                ^ .. CTRL .. T                      CTRL .. S
+                CTRL .. K R
+
+editors         CTRL .. pU| pD                      CTRL .. ALT .. [| ]
+                CTRL .. [^] .. Tab
+
+                CTRL .. 1| 2 ..                     CTRL .. K CTRL Le| Ri| Up |Do
+                CTRL ... [ALT] .. \                   CTRL .. K O
+
+                CTRL .. [^] .. pU| pD
+                CTRL .. ALT .. Le| Ri               CTRL .. K .. Le| Ri| Up| Do
+
+views           CTRL .. Q| 0                        CTRL .. K E
+                ^ .. CTRL .. E| G| D| X| F| H
+
+                CTRL .. B
+
+                ^ .. CTRL .. M                      ^ .. CTRL .. U
+                ^ .. CTRL .. Y
+                CTRL .. [^] .. `                    CTRL .. J
+                ^ .. ALT .. pU| pD                  CTRL .. ^ .. ALT .. enter
+
+tools           CTRL .. P -- @, #, >
+                CTRL .. T                           ^ .. CTRL .. P| O| C
+
+                CTRL .. ALT .. K| L| J              CTRL .. ALT .. M
+                ^ .. CTRL .. ALT .. K
+                CTRL .. D CTRL .. O                 CTRL .. ALT .. T
+
+                CTRL .. D CTRL .. P                 ALT .. L ALT .. O| C
+                CTRL .. K CTRL .. N
+
+develop         CTRL .. F5| F5| ^ .. F5             CTRL .. ^ .. F5
+                F09| ^ .. F09| CTRL .. F9
+                F10                                 F11| ^ .. F11
+                ^ .. CTRL .. B
+
+settings        ^ .. F10                            CTRL .. K CTRL .. S| A| E
+                CTRL .. ,                           ^ .. F9
+                CTRL .. K CTRL .. T
+
+VS -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+navigation      CTRL .. [^] .. Le| Ri
+                CTRL .. [FN] .. Up| Do              FN .. [^] .. Up| Do| Le| Ri
+                FN .. CTRL .. [^] .. Le| Ri
+
+edit            CTRL .. space                       ALT .. Ri
+                CTRL .. ALT .. T| CTRL .. J
+                Tab                                 CTRL .. ALT .. space
+                ALT .. Up| Do                       CTRL .. D
+                CTRL .. E [CTRL] .. V
+
+                [^] .. CTRL .. enter
+                [CTRL] .. Delete                    [CTRL] .. Backspace
+                CTRL .. ^ .. L
+
+                CTRL .. ^ .. /
+                CTRL .. R CTRL .. R                 F2
+
+                CTRL .. K CTRL .. D
+
+                CTRL .. W                           CTRL .. [^] .. U
+
+                ^ .. ALT .. Up| Do
+                ^ .. ALT .. ;                       ^ .. ALT .. ,| .| /
+
+infos           CTRL .. K CTRL .. I                 CTRL .. .
+                CTRL .. ^ .. Up| Do
+
+                [CTRL] .. F12
+                ALT .. F12
+                ^ .. ALT .. F12                     CTRL .. ALT .. Y
+                CTRL .. ALT .. Up
+
+                CTRL .. R| E CTRL .. W              CTRL .. \ CTRL .. space
+
+                CTRL .. 0 CTRL .. G| R
+                ^ .. F8
+
+editor          CTRL .. [^] .. ]                    CTRL .. [^] .. -
+                CTRL .. ^ .. V
+                CTRL .. K CTRL .. O| J
+
+                CTRL .. M CTRL .. M                 CTRL .. M CTRL .. L
+
+                CTRL .. I| CTRL .. ^ .. I
+                CTRL .. F| H                        [CTRL] .. [^] .. F3
+                CTRL .. ^ .. F| H
+                ALT .. C| W| E
+
+files           CTRL .. ALT .. L| ;                 CTRL .. [ S
+                CTRL .. K Space
+                CTRL .. N| S
+
+editors         CTRL .. [ALT] .. pU| pD             CTRL .. K Le| Ri
+                CTRL .. Tab                         CTRL .. ALT .. Do
+
+                ^ .. space S                        [^] .. F6
+                ^ .. space V| H| N| P               CTRL .. ALT .. Le| Ri| D
+                CTRL .. ALT .. Home
+
+views           CTRL .. Q
+                ^ .. ALT .. enter
+
+                CTRL .. \ E
+                CTRL .. ALT .. O| K
+                CTRL .. `
+                CTRL .. \ T                        CTRL .. K CTRL .. H
+
+                CTRL .. ^ .. Y| C
+                CTRL .. ALT .. S
+
+                CTRL .. E T                        ^ .. ALT .. S
+                CTRL .. '                           CTRL .. \ CTRL .. M
+
+                ALT .. -                            [^] .. Esc
+
+tools           CTRL .. T                           ALT .. `
+                CTRL .. 1 [CTRL ..] F| R
+                CTRL .. 1 [CTRL ..] S| T| M
+
+                CTRL .. K CTRL .. K| N| P           CTRL .. K CTRL .. W
+                ^ .. F10
+
+develop         CTRL .. F5| F5| ^ .. F5             CTRL .. B
+                [CTRL .. ALT] .. F7                 CTRL .. Break
+
+                F09                                 CTRL .. K B
+                F10| F11
+                CTRL .. ^ .. F9
+
+Qt -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+navigation      CTRL .. [^] .. Le| Ri
+                CTRL .. Up| Do
+                FN .. ^ .. Up| Do| Le| Ri
+
+edit            CTRL .. space
+                ^ .. CTRL .. Up| Do                 CTRL .. ALT .. Up| Do
+                CTRL .. I
+
+                ALT .. [^] .. U
+
+info            CTRL .. K
+                [^] .. F2                           CTRL .. E [^] .. F2
+                ^ .. CTRL .. C| I| /
+
+editor          ALT .. O
+                [^] .. CTRL .. [| ]                 CTRL .. U
+
+                F4
+                ALT .. Le| Ri
+
+                CTRL .. <| >                        ^ .. CTRL .. ALT .. Up
+
+                [^] .. CTRL .. F                    OP .. CMD .. return
+                [^] .. F3
+
+editors         CTRL .. [^] .. Tab
+                CTRL .. E 2| 3                      CTRL .. E O| I
+                CTRL .. E 0| 1
+                CTRL .. E 4
+
+space           CTRL .. N| O
+                [^] .. CTRL .. W                    CTRL .. ^ .. ALT .. W
+
+views           CTRL .. 1                           ^ .. CTRL .. 1| 2 ..
+                ALT .. X| O
+                [^] .. ALT .. 0
+                ALT .. Y                            ALT .. M
+                CTRL .. ^ .. I
+
+tools           CTRL .. 1| 2 ..                     ALT .. 1| 2 ..
+                CTRL .. T
+                [^] .. CTRL .. M                    CTRL .. ,| .
+                CTRL .. E CTRL W| V
+
+develop         CTRL .. R| B                        F5
+                F09| CTRL .. F09
+                F10                                 [^] .. F11
+
+Notepad++ -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+navigation      CTRL .. [^] .. Le| Ri
+                CTRL .. Up| Do                      FN .. [^] .. Up| Do| Le| Ri
+                FN .. CTRL .. [^] .. Le| Ri
+
+documents       CTRL .. [^] .. pU| pD
+                CTRL .. [^] .. Tab
+                CTRL .. N| W                        CTRL .. ^ .. T
+
+edit            CTRL .. ALT .. enter                CTRL .. ALT .. ^ .. enter
+                CTRL .. D                           CTRL .. ^ .. L| Up| Do
+
+tools           CTRL .. F| H                        CTRL .. ^ .. F
+                F12                                 CTRL .. R
+
+special         ^ .. ALT .. space
+
+MacOS -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 windows         CMD .. Q, CMD .. [^] .. W           CTRL .. F4
                 CMD .. [^] .. Tab                   CTRL .. F2
                 OP .. CMD .. space                  ^ .. CMD .. G
@@ -47,7 +352,7 @@ dictionary      [OP] .. CMD .. F                    [^] .. CMD .. G
                 [^] .. CMD .. [| ]
 music           OP .. CMD .. Le| Ri| E              ^ .. CMD .. M
 
-Finder -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+Finder -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 window          CMD .. N| T| W                      ^ .. CMD .. \
 
 file            space,  CMD .. Y                    CMD .. O
@@ -68,7 +373,7 @@ views           CMD .. 1| 2| 3| 4                   CTRL .. CMD .. 0
 tools           CMD .. F                            CMD .. ,
                 CMD .. I                            CMD .. J
 
-Safari -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+Safari -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 window          CMD .. T| N                         [^]| [OP] .. CMD .. W
                 OP .. CMD .. Le| Ri                 ^ .. CMD .. [| ]
                 CTRL .. [^] .. Tab
@@ -92,7 +397,7 @@ special         ^ .. CMD .. T
 advanced        OP .. CMD .. I                      OP .. CMD .. U
                 CTRL .. CMD .. R
 
-Chrome, Edge -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+Chrome, Edge -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 window          CMD .. T| N                         CMD .. [^] .. W
                 OP .. CMD .. Le| Ri                 ^ .. CMD .. [| ]
                 CTRL .. [^] .. pU| pD
@@ -115,7 +420,7 @@ special         ^ .. CMD .. T| B                    OP .. CMD .. B
 
 advanced        ^ .. Esc                            OP .. CMD .. I| U
 
-VS Code -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+VS Code -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 navigation      [CTRL] .. OP .. [^] .. Le| Ri       CMD .. [^] .. Le| Ri
                 CTRL| OP| CMD .. pU| pD             CMD .. [^] .. Up| Do
                 FN .. [^] .. Up| Do| Le| Ri
@@ -204,7 +509,7 @@ settings        ^ .. F10                            CMD .. K CMD .. A| E
                 CMD .. ,                            ^ .. F9
                 CMD .. K CMD .. T
 
-XCode -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+XCode -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 navigation      OP| CMD .. [^] .. Le| Ri
                 CTRL| OP .. pU| pD                  CMD .. [^] .. Up| Do
                 FN .. [^] .. Up| Do| Le| Ri
@@ -268,7 +573,7 @@ develop         CMD .. R| .                         ^ .. CMD .. K
 
 settings        CMD .. ,
 
-Qt -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+Qt -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 navigation      OP| CMD .. [^] .. Le| Ri
                 CMD .. Up| Do
                 FN .. ^ .. Up| Do| Le| Ri
@@ -318,309 +623,3 @@ develop         CMD .. R| B                         CMD .. Y
                 ^ .. CMD .. O| I| T
 
 settings        CMD .. ,
-
-Windows -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-windows         ALT .. Esc| Tab                     ALT .. space
-                Win .. Tab                          CTRL .. 1| 2 ..
-                Win .. E                            Win .. ,| D
-                Win .. M| Home                      F11
-
-start           Win .. Q| S
-                 -- Administrator: CTRL .. ^ .. enter
-                Win .. space                        Win .. T| A| N| B| X
-
-tools           Win .. V| W| G                      Win .. CTRL .. C
-                Win .. ^ .. C
-
-                Win .. =| Esc                       Win .. +| -
-                CTRL .. ALT .. D| F| L
-
-                Win .. I                            Win .. R
-                 - search: CTRL .. E                 - cmd, tpm.msc, msconfig, netplwiz
-                Win .. C                            Win .. .
-
-advanced        ^ .. F10                            CTRL .. Tab
-                Win .. CTRL .. D| Le| Ri| F4
-                CTRL .. Esc| Win                    ALT
-
-File Explore -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-window          CTRL .. N| W                        [CTRL] .. enter
-
-navigation      CTRL .. ^ .. Tab
-                ALT .. Le| Ri                       Backspace| ALT .. Up
-                CTRL .. F then Esc
-                CTRL .. Up| Do| Le| Ri
-
-views           ALT .. [^] .. P                     CTRL .. ^ .. 1| 2 ..
-
-tools           CTRL .. F| E                        ALT .. enter
-                ALT .. D| CTRL .. L                 F4
-
-Chrome, Edge -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-window          CTRL .. T| N                        CTRL .. [^] .. W
-                CTRL .. [^] .. pU| pD               CTRL .. [^] .. Tab
-                CTRL .. 1| 2 ..
-
-page            CTRL .. K| E| L                     ALT .. D
-                FN .. Up| Do| Le| Ri                space| ^ .. space
-                ALT .. Le| Ri
-                CTRL .. F                           CTRL .. R
-                CTRL .. D
-
-tools           ALT| F10 repeat F6
-                ALT .. F| E                         CTRL .. B
-                CTRL .. ^ .. A| D| O                CTRL .. ^ .. P
-
-special         CTRL .. ^ .. T
-                CTRL .. H                           CTRL .. J
-
-advanced        ^ .. Esc                            F12
-                CTRL .. U
-
-VS Code -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-navigation      CTRL .. [^] .. Le| Ri               CTRL .. ALT .. / [^] .. Ri| Le
-                CTRL .. Up| Do                      FN .. [^] .. Up| Do| Le| Ri
-                FN .. CTRL .. [^] .. Up| Do| Le| Ri
-
-edit            CTRL .. I[2x]
-                CTRL .. [ALT] .. Space[2x]
-                ALT .. Up| Do                       ^ .. ALT .. Up| Do
-
-                [^] .. CTRL .. enter
-                [CTRL] .. [ALT] .. Delete           [CTRL] .. [ALT] .. Backspace
-
-                CTRL .. [^] .. /                    ^ .. ALT .. A
-                ^ .. CTRL .. R                      F2
-
-                CTRL .. I                           CTRL .. [| ]
-                ^ .. ALT .. F
-
-                CTRL .. ALT .. [^] .. U             CTRL .. FN .. ALT .. Le| Ri
-                CTRL .. ^ .. ALT .. R
-
-                CTRL .. ALT .. Up| Do
-                CTRL .. [^] .. ALT .. Le| Ri| Up| Do| pU| pD
-                ^ .. CTRL .. L, CTRL F2
-
-infos           CTRL .. K CTRL .. I                 CTRL .. .
-                [^] .. F7
-
-                [CTRL] .. F12
-                ALT .. F12                          CTRL .. K F2
-                ^ .. ALT .. F12 then F4| ^ .. F4
-
-                ALT .. H
-                CTRL .. D CTRL .. D| I              CTRL .. D CTRL .. R| T| W
-                ALT .. [^] .. F5
-
-editor          CTRL .. ^ .. A                      CTRL .. K enter
-                CTRL| ^ .. ALT .. 0
-
-                ALT .. O
-                CTRL .. [^] .. '                    CTRL .. ALT .. '
-                ALT .. Le| Ri                       ^ .. CTRL .. V
-
-                CTRL .. ^ .. [| ]                   CTRL .. K CTRL .. L| 0| J
-
-                CTRL .. F| H                        [CTRL] .. [^] .. F3
-                ^ .. CTRL .. F| H
-                ALT .. C| W| R| P
-
-files           CTRL .. [^] .. N| W
-                ^ .. CTRL .. T                      CTRL .. S
-                CTRL .. K R
-
-editors         CTRL .. pU| pD                      CTRL .. ALT .. [| ]
-                CTRL .. [^] .. Tab
-
-                CTRL .. 1| 2 ..                     CTRL .. K CTRL Le| Ri| Up |Do
-                [OP] .. CTRL .. \                   CTRL .. K O
-
-                CTRL .. [^] .. pU| pD
-                CTRL .. ALT .. Le| Ri               CTRL .. K .. Le| Ri| Up| Do
-
-views           CTRL .. Q| 0                        CTRL .. K E
-                ^ .. CTRL .. E| G| D| X| F| H
-
-                CTRL .. B
-
-                ^ .. CTRL .. M                      ^ .. CTRL .. U
-                ^ .. CTRL .. Y
-                CTRL .. [^] .. `                    CTRL .. J
-                CTRL .. pU| pD
-                ^ .. ALT .. pU| pD                  CTRL .. ^ .. ALT .. enter
-
-tools           CTRL .. P -- @, #, >
-                CTRL .. T                           ^ .. CTRL .. P| O| C
-
-                CTRL .. ALT .. K| L| J              CTRL .. ALT .. M
-                ^ .. CTRL .. ALT .. K
-                CTRL .. D CTRL .. O                 CTRL .. ALT .. T
-
-                CTRL .. D CTRL .. P                 ALT .. L ALT .. O| C
-                CTRL .. K CTRL .. N
-
-develop         CTRL .. F5| F5| ^ .. F5             CTRL .. ^ .. F5
-                F09| ^ .. F09| CTRL .. F9
-                F10                                 F11| ^ .. F11
-                ^ .. CTRL .. B
-
-settings        ^ .. F10                            CTRL .. K CTRL .. S| A| E
-                CTRL .. ,                            ^ .. F9
-                CTRL .. K CTRL .. T
-
-VS -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-navigation      CTRL .. [^] .. Le| Ri
-                CTRL .. [FN] .. Up| Do              FN .. [^] .. Up| Do| Le| Ri
-                FN .. CTRL .. [^] .. Le| Ri
-
-edit            CTRL .. space                       ALT .. Ri
-                CTRL .. ALT .. T| CTRL .. J
-                Tab                                 CTRL .. ALT .. space
-                ALT .. Up| Do                       CTRL .. D
-                CTRL .. E [CTRL] .. V
-
-                [^] .. CTRL .. enter
-                [CTRL] .. Delete                    [CTRL] .. Backspace
-                CTRL .. ^ .. L
-
-                CTRL .. ^ .. /
-                CTRL .. R CTRL .. R                 F2
-
-                CTRL .. K CTRL .. D
-
-                CTRL .. W                           CTRL .. [^] .. U
-
-                ^ .. ALT .. Up| Do
-                ^ .. ALT .. ;                       ^ .. ALT .. ,| .| /
-
-infos           CTRL .. K CTRL .. I                 CTRL .. .
-                CTRL .. ^ .. Up| Do
-
-                [CTRL] .. F12
-                ALT .. F12
-                ^ .. ALT .. F12                     CTRL .. ALT .. Y
-                CTRL .. ALT .. Up
-
-                CTRL .. R| E CTRL .. W              CTRL .. \ CTRL .. space
-
-                CTRL .. 0 CTRL .. G| R
-                ^ .. F8
-
-editor          CTRL .. [^] .. ]                    CTRL .. [^] .. -
-                CTRL .. ^ .. V
-                CTRL .. K CTRL .. O| J
-
-                CTRL .. M CTRL .. M                 CTRL .. M CTRL .. L
-
-                CTRL .. I| CTRL .. ^ .. I
-                CTRL .. F| H                        [CTRL] .. [^] .. F3
-                CTRL .. ^ .. F| H
-                ALT .. C| W| E
-
-files           CTRL .. ALT .. L| ;                 CTRL .. [ S
-                CTRL .. K Space
-                CTRL .. N| S
-
-editors         CTRL .. [ALT] .. pU| pD
-                CTRL .. Tab                         CTRL .. ALT .. Do
-
-                ^ .. space S                        [^] .. F6
-                ^ .. space V| H| N| P               CTRL .. ALT .. Le| Ri| D
-                CTRL .. ALT .. Home
-
-views           CTRL .. Q
-                ^ .. ALT .. enter
-
-                CTRL .. \ E
-                CTRL .. ALT .. O| K
-                CTRL .. `
-                CTRL .. \ T                        CTRL .. K CTRL .. H
-
-                CTRL .. ^ .. Y| C
-                CTRL .. ALT .. S
-
-                CTRL .. E T                        ^ .. ALT .. S
-                CTRL .. '                           CTRL .. \ CTRL .. M
-
-                ALT .. -                            [^] .. Esc
-
-tools           CTRL .. T                           ALT .. `
-                CTRL .. 1 [CTRL ..] F| R
-                CTRL .. 1 [CTRL ..] S| T| M
-
-                CTRL .. K CTRL .. K| N| P           CTRL .. K CTRL .. W
-                ^ .. F10
-
-develop         CTRL .. F5| F5| ^ .. F5             CTRL .. B
-                [CTRL .. ALT] .. F7                 CTRL .. Break
-
-                F09                                 CTRL .. K B
-                F10| F11
-                CTRL .. ^ .. F9
-
-Qt -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-navigation      CTRL .. [^] .. Le| Ri
-                CTRL .. Up| Do
-                FN .. ^ .. Up| Do| Le| Ri
-
-edit            CTRL .. space
-                ^ .. CTRL .. Up| Do                 CTRL .. ALT .. Up| Do
-                CTRL .. I
-
-                ALT .. [^] .. U
-
-info            CTRL .. K
-                [^] .. F2                           CTRL .. E [^] .. F2
-                ^ .. CTRL .. C| I| /
-
-editor          ALT .. O
-                [^] .. CTRL .. [| ]                 CTRL .. U
-
-                F4
-                ALT .. Le| Ri
-
-                CTRL .. <| >                        ^ .. CTRL .. ALT .. Up
-
-                [^] .. CTRL .. F                    OP .. CMD .. return
-                [^] .. F3
-
-editors         CTRL .. [^] .. Tab
-                CTRL .. E 2| 3                      CTRL .. E O| I
-                CTRL .. E 0| 1
-                CTRL .. E 4
-
-space           CTRL .. N| O
-                [^] .. CTRL .. W                    CTRL .. ^ .. ALT .. W
-
-views           CTRL .. 1                           ^ .. CTRL .. 1| 2 ..
-                ALT .. X| O
-                [^] .. ALT .. 0
-                ALT .. Y                            ALT .. M
-                CTRL .. ^ .. I
-
-tools           CTRL .. 1| 2 ..                     ALT .. 1| 2 ..
-                CTRL .. T
-                [^] .. CTRL .. M                    CTRL .. ,| .
-                CTRL .. E CTRL W| V
-
-develop         CTRL .. R| B                        F5
-                F09| CTRL .. F09
-                F10                                 [^] .. F11
-
-Notepad++ -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-navigation      CTRL .. [^] .. Le| Ri
-                CTRL .. Up| Do                      FN .. [^] .. Up| Do| Le| Ri
-                FN .. CTRL .. [^] .. Le| Ri
-
-documents       CTRL .. [^] .. pU| pD
-                CTRL .. [^] .. Tab
-                CTRL .. N| W                        CTRL .. ^ .. T
-
-edit            CTRL .. ALT .. enter                CTRL .. ALT .. ^ .. enter
-                CTRL .. D                           CTRL .. ^ .. L| Up| Do
-
-tools           CTRL .. F| H                        CTRL .. ^ .. F
-                F12                                 CTRL .. R
-
-special         ^ .. ALT .. space
