@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 12.08.2023</changed>
+/// <changed>ʆϒʅ, 18.08.2023</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -336,7 +336,7 @@ apps            Apps Key                            [OP] .. CMD .. space
                 CTRL .. CMD .. D
                 CTRL .. OP .. space                 CTRL .. [^] .. space
                 CTRL .. F3                          OP .. CMD .. D
-
+ 
 tools           OP .. CMD .. F5
                 CTRL .. CMD .. space
 
@@ -387,8 +387,8 @@ page            CMD .. L
                 CMD .. R                            CMD .. .
 
 tools           [OP] .. CMD .. -| +, CMD .. 0
-                ^ .. CMD .. B| L                    CTRL .. CMD .. 1| 2
-                ^ .. CMD .. R| D
+                ^ .. CMD .. B                       CTRL .. CMD .. 1| 2
+                ^ .. CMD .. L| R| D
                 CTRL .. F2                          OP .. CMD .. B
 
 special         ^ .. CMD .. T
@@ -402,18 +402,17 @@ window          CMD .. T| N                         CMD .. [^] .. W
                 OP .. CMD .. Le| Ri                 ^ .. CMD .. [| ]
                 CTRL .. [^] .. pU| pD
                 CTRL .. [^] .. Tab
-                CTRL .. 1| 2 ..
+                CMD .. 1| 2 ..
 
-page            CTRL .. K| E| L
+page            CMD .. L
                 FN .. Up| Do| Le| Ri                space| ^ .. space
                 CMD .. [| Le| ]| Ri
                 CMD .. F                            CMD .. R
                 CMD .. D
 
-tools           CTRL .. F5
-                ALT .. F| E                         CTRL .. B
-                ^ .. CMD .. P
-                ^ .. CMD .. A| D| O                 CTRL .. ^ .. P
+tools           OP .. CMD .. Up| Do
+                CMD .. B
+                ^ .. CMD .. A| D                    ^ .. CMD .. P
 
 special         ^ .. CMD .. T| B                    OP .. CMD .. B
                 CMD .. Y                            ^ .. CMD .. J
@@ -514,7 +513,8 @@ navigation      OP| CMD .. [^] .. Le| Ri
                 CTRL| OP .. pU| pD                  CMD .. [^] .. Up| Do
                 FN .. [^] .. Up| Do| Le| Ri
 
-edit            FN .. ^ .. Space, Esc, OP .. Esc, CTRL .. .
+edit            FN .. ^ .. Space
+                CTRL .. [^] .. ., OP .. Esc
                 OP .. CMD .. [| ]                   CMD .. D
 
                 [OP] .. CMD .. /
@@ -534,30 +534,29 @@ infos           ^ .. CMD .. O
 
                 CTRL .. CMD .. L
 
-                FN .. OP .. return                  OP .. [^] .. \
+                ^ .. OP .. R                        ^ .. OP .. C| S
                 CTRL .. L
 
-editor          [^] .. CMD .. J                     FN .. CTRL .. return
+editor          [^] .. CMD .. J                     ^ .. OP .. E
 
                 CTRL .. CMD .. Up| Do
                 CTRL .. CMD .. Le| Ri
 
                 OP .. CMD .. Le| Ri
-                OP .. ^ .. CMD .. Le| Ri            OP .. ^ .. CMD .. Up| Do
+                OP .. ^ .. CMD .. Le| Ri            CTRL .. ^ .. CMD .. Le| Ri
 
                 [^] .. CMD .. E                     ^ .. [OP] .. CMD .. F
                 [^] .. [OP] .. CMD .. G
 
-editors         ^ .. CMD .. [| ]                    [^] .. OP .. CMD .. `
+editors         ^ .. CMD .. [| ]                    CTRL .. [^] .. `
 
                 CTRL .. [OP] .. CMD .. T            ^ .. CTRL .. CMD .. W
-                CTRL .. `
 
                 [^] .. CMD .. T                     ^ .. CMD .. W
 
 files           OP .. CMD .. O| ,                   [OP] .. [CTRL] .. CMD .. W
                 ^ .. CMD .. 1                       CTRL .. OP .. CMD .. W
-                OP .. CMD .. A                      OP .. ^ .. R
+                OP .. CMD .. A                      CTRL .. OP .. CMD .. R
 
 views           CMD .. 0| 1| 2 ..                   OP .. CMD .. 0| 1| 2| 3
                 ^ .. CMD .. Y| C
