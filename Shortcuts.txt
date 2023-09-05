@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 18.08.2023</changed>
+/// <changed>ʆϒʅ, 30.08.2023</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -451,7 +451,7 @@ infos           CMD .. K CMD .. I                   CMD .. .
 
                 OP .. H
                 CMD .. D CMD .. D| I                CMD .. D CMD .. R| T| W
-                CTRL .. [^] .. F5
+                OP .. [^] .. F3
 
 editor          ^ .. CMD .. A                       CMD .. K enter
                 ^ .. CMD .. 0                       OP .. CMD .. 0
@@ -464,10 +464,10 @@ editor          ^ .. CMD .. A                       CMD .. K enter
 
                 [OP] .. CMD .. F                    [^] .. [CMD] .. F3
                 ^ .. CMD .. F| H
-                OP .. CMD .. C| W| R| P
+                OP .. CMD .. C| W| R| P             [OP] .. [CMD] .. return 
 
 editors         OP .. CMD .. Le| Ri                 ^ .. CMD .. [| ]
-                CTRL| OP .. [^] .. Tab
+                CTRL .. [^] .. Tab                  OP .. Tab
 
                 CMD .. 1| 2 ..                      CMD .. K CMD Le| Ri| Up |Do
                 [OP] .. CMD .. \                    CMD .. K O
@@ -479,8 +479,9 @@ files           CMD .. [^] .. N| W
                 ^ .. CMD .. T                       CMD .. [^] .. S
                 CMD .. K R
 
-views           CTRL .. Q| 0                        CMD .. K E
+views           CTRL| CMD .. 0
                 ^ .. CMD .. E| G| D| X| F| H
+                CTRL .. [^] .. Q                    CMD .. K E
 
                 CMD .. B
 
@@ -528,7 +529,7 @@ edit            FN .. ^ .. Space
                 CTRL .. CMD .. E
 
 infos           ^ .. CMD .. O
-                [^] .. OP .. CMD .. E
+                [^] .. OP .. CMD .. E               ^ .. [CTRL] .. CMD .. J
 
                 [^] .. CTRL .. [OP] .. CMD .. J     ^ .. CTRL .. CMD .. F
 
@@ -539,7 +540,7 @@ infos           ^ .. CMD .. O
 
 editor          [^] .. CMD .. J                     ^ .. OP .. E
 
-                CTRL .. CMD .. Up| Do
+                CTRL .. [OP] .. CMD .. Up| Do
                 CTRL .. CMD .. Le| Ri
 
                 OP .. CMD .. Le| Ri
@@ -558,12 +559,13 @@ files           OP .. CMD .. O| ,                   [OP] .. [CTRL] .. CMD .. W
                 ^ .. CMD .. 1                       CTRL .. OP .. CMD .. W
                 OP .. CMD .. A                      CTRL .. OP .. CMD .. R
 
-views           CMD .. 0| 1| 2 ..                   OP .. CMD .. 0| 1| 2| 3
-                ^ .. CMD .. Y| C
+views           CMD .. 0| 1| 2 ..                   OP .. CMD .. J
+                OP .. CMD .. 0| 1| 2| 3
+                ^ .. CMD .. Y| C                    [CTRL] .. OP .. CMD .. return
 
 tools           FN .. CTRL .. 1| 2 ..
                 ^ .. CMD .. L| 0                    ^ .. CTRL .. CMD .. M| L| /| A| T
-                OP .. CMD .. T
+                OP .. CMD .. T                      CMD
 
 develop         CMD .. R| .                         ^ .. CMD .. K
                 [OP] .. CMD .. \                    CMD .. Y
