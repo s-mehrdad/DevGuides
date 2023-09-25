@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 30.08.2023</changed>
+/// <changed>ʆϒʅ, 25.09.2023</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -418,6 +418,7 @@ special         ^ .. CMD .. T| B                    OP .. CMD .. B
                 CMD .. Y                            ^ .. CMD .. J
 
 advanced        ^ .. Esc                            OP .. CMD .. I| U
+                ^ .. CMD .. M
 
 VS Code -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 navigation      [CTRL] .. OP .. [^] .. Le| Ri       CMD .. [^] .. Le| Ri
@@ -480,7 +481,7 @@ files           CMD .. [^] .. N| W
                 CMD .. K R
 
 views           CTRL| CMD .. 0
-                ^ .. CMD .. E| G| D| X| F| H
+                ^ .. CMD .. E| G| D| X
                 CTRL .. [^] .. Q                    CMD .. K E
 
                 CMD .. B
@@ -500,7 +501,7 @@ tools           CMD .. P -- @, #, >                 ^ .. CMD .. P| O| I
                 CMD .. K CMD .. P                   CMD .. L CMD .. O| C
                 CMD .. K CMD .. N
 
-develop         CTRL .. F5| F5| ^ .. F5             ^ .. CMD .. F5
+develop         F5| CTRL .. F5| ^ .. F5             ^ .. CMD .. F5
                 F09| ^ .. F09| CMD .. F9
                 F10                                 F11| ^ .. F11
                 ^ .. CMD .. B
@@ -546,7 +547,7 @@ editor          [^] .. CMD .. J                     ^ .. OP .. E
                 OP .. CMD .. Le| Ri
                 OP .. ^ .. CMD .. Le| Ri            CTRL .. ^ .. CMD .. Le| Ri
 
-                [^] .. CMD .. E                     ^ .. [OP] .. CMD .. F
+                [^] .. CMD .. E                     [^] .. [OP] .. CMD .. F
                 [^] .. [OP] .. CMD .. G
 
 editors         ^ .. CMD .. [| ]                    CTRL .. [^] .. `
@@ -567,7 +568,9 @@ tools           FN .. CTRL .. 1| 2 ..
                 ^ .. CMD .. L| 0                    ^ .. CTRL .. CMD .. M| L| /| A| T
                 OP .. CMD .. T                      CMD
 
-develop         CMD .. R| .                         ^ .. CMD .. K
+develop         [^] .. CMD .. R                     ^ .. CMD .. K
+                CMD .. .
+                [^] .. CMD .. U                     CTRL .. OP .. CMD .. K
                 [OP] .. CMD .. \                    CMD .. Y
                 F6, F7, F8
                 CTRL .. 0
