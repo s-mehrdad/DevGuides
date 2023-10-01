@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 25.09.2023</changed>
+/// <changed>ʆϒʅ, 01.10.2023</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -47,15 +47,19 @@ advanced        ^ .. F10                            CTRL .. Tab
 File Explore -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 window          CTRL .. N| W                        [CTRL] .. enter
 
-navigation      CTRL .. ^ .. Tab
-                ALT .. Le| Ri                       Backspace| ALT .. Up
-                CTRL .. F then Esc
+navigation      ALT .. Le| Ri                       Backspace| ALT .. Up
                 CTRL .. Up| Do| Le| Ri
 
 views           ALT .. [^] .. P                     CTRL .. ^ .. 1| 2 ..
 
 tools           CTRL .. F| E                        ALT .. enter
                 ALT .. D| CTRL .. L                 F4
+
+qtTabBar        CTRL .. [^] .. Tab
+                ALT .. Q| E                         CTRL .. ^ .. Ri
+                CTRL .. ALT .. Le| Ri
+                ALT .. O                            CTRL .. ^ .. P
+                ALT .. C| X                         CTRL .. ^ .. C| X
 
 Chrome, Edge -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 window          CTRL .. T| N                        CTRL .. [^] .. W
@@ -160,7 +164,7 @@ tools           CTRL .. P -- @, #, >
                 CTRL .. D CTRL .. P                 ALT .. L ALT .. O| C
                 CTRL .. K CTRL .. N
 
-develop         CTRL .. F5| F5| ^ .. F5             CTRL .. ^ .. F5
+develop         F5| CTRL .. F5| ^ .. F5             CTRL .. ^ .. F5
                 F09| ^ .. F09| CTRL .. F9
                 F10                                 F11| ^ .. F11
                 ^ .. CTRL .. B
@@ -177,8 +181,7 @@ navigation      CTRL .. [^] .. Le| Ri
 edit            CTRL .. space                       ALT .. Ri
                 CTRL .. ALT .. T| CTRL .. J
                 Tab                                 CTRL .. ALT .. space
-                ALT .. Up| Do                       CTRL .. D
-                CTRL .. E [CTRL] .. V
+                ALT .. Up| Do                       CTRL .. E [CTRL] .. V
 
                 [^] .. CTRL .. enter
                 [CTRL] .. Delete                    [CTRL] .. Backspace
@@ -202,7 +205,8 @@ infos           CTRL .. K CTRL .. I                 CTRL .. .
                 ^ .. ALT .. F12                     CTRL .. ALT .. Y
                 CTRL .. ALT .. Up
 
-                CTRL .. R| E CTRL .. W              CTRL .. \ CTRL .. space
+                CTRL .. R CTRL W                    CTRL .. E CTRL .. W
+                CTRL .. \ CTRL .. space
 
                 CTRL .. 0 CTRL .. G| R
                 ^ .. F8
@@ -216,13 +220,14 @@ editor          CTRL .. [^] .. ]                    CTRL .. [^] .. -
                 CTRL .. I| CTRL .. ^ .. I
                 CTRL .. F| H                        [CTRL] .. [^] .. F3
                 CTRL .. ^ .. F| H
-                ALT .. C| W| E
+                ALT .. C| W| E| V                   ALT .. R| A
 
 files           CTRL .. ALT .. L| ;                 CTRL .. [ S
-                CTRL .. K Space
+                ^ .. Space F
                 CTRL .. N| S
 
-editors         CTRL .. [ALT] .. pU| pD             CTRL .. K Le| Ri
+editors         CTRL .. ALT .. pU| pD| End| Home
+                CTRL .. K Le| Ri
                 CTRL .. Tab                         CTRL .. ALT .. Do
 
                 ^ .. space S                        [^] .. F6
@@ -235,24 +240,24 @@ views           CTRL .. Q
                 CTRL .. \ E
                 CTRL .. ALT .. O| K
                 CTRL .. `
-                CTRL .. \ T                        CTRL .. K CTRL .. H
+                CTRL .. \ T                         CTRL .. K CTRL .. H
 
-                CTRL .. ^ .. Y| C
-                CTRL .. ALT .. S
+                CTRL .. ^ .. Y| C| X
+                CTRL .. ALT .. S                    CTRL .. \ CTRL .. S
 
-                CTRL .. E T                        ^ .. ALT .. S
+                CTRL .. E T                         ^ .. ALT .. S
                 CTRL .. '                           CTRL .. \ CTRL .. M
 
                 ALT .. -                            [^] .. Esc
 
 tools           CTRL .. T                           ALT .. `
-                CTRL .. 1 [CTRL ..] F| R
-                CTRL .. 1 [CTRL ..] S| T| M
+                CTRL .. 1 R
 
-                CTRL .. K CTRL .. K| N| P           CTRL .. K CTRL .. W
+                CTRL .. K CTRL .. K| N| P           CTRL .. \ CTRL .. B
                 ^ .. F10
+                CTRL .. K CTRL .. B
 
-develop         CTRL .. F5| F5| ^ .. F5             CTRL .. B
+develop         F5| CTRL .. F5| ^ .. F5             CTRL .. B| F7
                 [CTRL .. ALT] .. F7                 CTRL .. Break
 
                 F09                                 CTRL .. K B
