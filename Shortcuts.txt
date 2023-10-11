@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 01.10.2023</changed>
+/// <changed>ʆϒʅ, 11.10.2023</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -35,6 +35,8 @@ tools           Win .. V| W| G                      Win .. CTRL .. C
 
                 Win .. =| Esc                       Win .. +| -
                 CTRL .. ALT .. D| F| L
+                ^ .. Win .. F
+                CTRL .. Win .. O
 
                 Win .. I                            Win .. R
                  - search: CTRL .. E                 - cmd, tpm.msc, msconfig, netplwiz
@@ -120,18 +122,20 @@ infos           CTRL .. K CTRL .. I                 CTRL .. .
 
 editor          CTRL .. ^ .. A                      CTRL .. K enter
                 CTRL| ^ .. ALT .. 0
+                CTRL .. [^] .. '                    CTRL .. ALT .. '
+                ALT .. Le| Ri
 
                 ALT .. O
-                CTRL .. [^] .. '                    CTRL .. ALT .. '
-                ALT .. Le| Ri                       ^ .. CTRL .. V
+                CTRL .. ^ .. ALT .. L               CTRL .. ALT .. D
 
                 CTRL .. ^ .. [| ]                   CTRL .. K CTRL .. L| 0| J
+                ^ .. CTRL .. V
 
                 CTRL .. F| H                        [CTRL] .. [^] .. F3
                 ^ .. CTRL .. F| H
                 ALT .. C| W| R| P
 
-files           CTRL .. [^] .. N| W
+files           CTRL .. [^] .. N| W                 CTRL .. [ S
                 ^ .. CTRL .. T                      CTRL .. S
                 CTRL .. K R
 
@@ -154,7 +158,7 @@ views           CTRL .. Q| 0                        CTRL .. K E
                 CTRL .. [^] .. `                    CTRL .. J
                 ^ .. ALT .. pU| pD                  CTRL .. ^ .. ALT .. enter
 
-tools           CTRL .. P -- @, #, >
+tools           CTRL .. P -- @, #, >                CTRL .. R
                 CTRL .. T                           ^ .. CTRL .. P| O| C
 
                 CTRL .. ALT .. K| L| J              CTRL .. ALT .. M
@@ -174,7 +178,7 @@ settings        ^ .. F10                            CTRL .. K CTRL .. S| A| E
                 CTRL .. K CTRL .. T
 
 VS -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-navigation      CTRL .. [^] .. Le| Ri
+navigation      CTRL .. [ALT] .. [^] .. Le| Ri
                 CTRL .. [FN] .. Up| Do              FN .. [^] .. Up| Do| Le| Ri
                 FN .. CTRL .. [^] .. Le| Ri
 
@@ -187,7 +191,7 @@ edit            CTRL .. space                       ALT .. Ri
                 [CTRL] .. Delete                    [CTRL] .. Backspace
                 CTRL .. ^ .. L
 
-                CTRL .. ^ .. /
+                CTRL .. K| M CTRL .. /              CTRL .. ^ .. /
                 CTRL .. R CTRL .. R                 F2
 
                 CTRL .. K CTRL .. D
@@ -211,11 +215,15 @@ infos           CTRL .. K CTRL .. I                 CTRL .. .
                 CTRL .. 0 CTRL .. G| R
                 ^ .. F8
 
-editor          CTRL .. [^] .. ]                    CTRL .. [^] .. -
-                CTRL .. ^ .. V
+editor          ALT .. 0
+                CTRL .. [^] .. ]
+                CTRL .. [^] .. -
+                
                 CTRL .. K CTRL .. O| J
+                CTRL .. ^ .. ALT .. L               CTRL .. ALT .. D
 
                 CTRL .. M CTRL .. M                 CTRL .. M CTRL .. L
+                ^ .. CTRL .. V
 
                 CTRL .. I| CTRL .. ^ .. I
                 CTRL .. F| H                        [CTRL] .. [^] .. F3
@@ -227,17 +235,16 @@ files           CTRL .. ALT .. L| ;                 CTRL .. [ S
                 CTRL .. N| S
 
 editors         CTRL .. ALT .. pU| pD| End| Home
-                CTRL .. K Le| Ri
-                CTRL .. Tab                         CTRL .. ALT .. Do
+                CTRL .. ALT .. Do                   CTRL .. Tab
 
                 ^ .. space S                        [^] .. F6
-                ^ .. space V| H| N| P               CTRL .. ALT .. Le| Ri| D
+                ^ .. space V| H| N| P
                 CTRL .. ALT .. Home
 
 views           CTRL .. Q
                 ^ .. ALT .. enter
 
-                CTRL .. \ E
+                CTRL .. \ E                         CTRL .. ^ .. E
                 CTRL .. ALT .. O| K
                 CTRL .. `
                 CTRL .. \ T                         CTRL .. K CTRL .. H
@@ -253,7 +260,7 @@ views           CTRL .. Q
 tools           CTRL .. T                           ALT .. `
                 CTRL .. 1 R
 
-                CTRL .. K CTRL .. K| N| P           CTRL .. \ CTRL .. B
+                CTRL .. K CTRL .. K| N| P           CTRL .. K CTRL .. W
                 ^ .. F10
                 CTRL .. K CTRL .. B
 
@@ -461,16 +468,18 @@ infos           CMD .. K CMD .. I                   CMD .. .
 
 editor          ^ .. CMD .. A                       CMD .. K enter
                 ^ .. CMD .. 0                       OP .. CMD .. 0
+                [^] .. OP .. CMD .. '
+                FN .. OP .. Le| Ri
 
                 OP .. CMD .. O
-                [^] .. OP .. CMD .. '
-                FN .. OP .. Le| Ri                  ^ .. CMD .. V
+                ^ .. CTRL .. CMD .. L               CTRL .. OP .. D
 
                 OP .. CMD .. [| ]                   CMD .. K CMD .. L| 0| J
+                ^ .. CMD .. V
 
                 [OP] .. CMD .. F                    [^] .. [CMD] .. F3
                 ^ .. CMD .. F| H
-                OP .. CMD .. C| W| R| P             [OP] .. [CMD] .. return 
+                OP .. CMD .. C| W| R| P             [OP] .. [CMD] .. return
 
 editors         OP .. CMD .. Le| Ri                 ^ .. CMD .. [| ]
                 CTRL .. [^] .. Tab                  OP .. Tab
@@ -497,7 +506,8 @@ views           CTRL| CMD .. 0
                 ^ .. CMD .. [| ]
                 CTRL .. CMD .. Up| Do               CTRL .. OP .. CMD .. return
 
-tools           CMD .. P -- @, #, >                 ^ .. CMD .. P| O| I
+tools           CMD .. P -- @, #, >                 CMD .. R
+                ^ .. CMD .. P| O| I
 
                 OP .. CMD .. K| L| J                OP .. CMD .. M
                 ^ .. OP .. CMD .. K
@@ -542,12 +552,12 @@ infos           ^ .. CMD .. O
                 CTRL .. CMD .. L
 
                 ^ .. OP .. R                        ^ .. OP .. C| S
-                CTRL .. L
 
 editor          [^] .. CMD .. J                     ^ .. OP .. E
+                CTRL .. CMD .. Le| Ri
 
                 CTRL .. [OP] .. CMD .. Up| Do
-                CTRL .. CMD .. Le| Ri
+                CTRL .. L
 
                 OP .. CMD .. Le| Ri
                 OP .. ^ .. CMD .. Le| Ri            CTRL .. ^ .. CMD .. Le| Ri
