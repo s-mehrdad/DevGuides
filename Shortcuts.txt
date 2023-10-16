@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 11.10.2023</changed>
+/// <changed>ʆϒʅ, 16.10.2023</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -21,7 +21,7 @@ references:     Applications themselves
 
 
 Windows -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
-windows         ALT .. Esc| Tab                     ALT .. space
+windows         ALT .. Tab                          ALT .. space
                 Win .. Tab                          CTRL .. 1| 2 ..
                 Win .. E                            Win .. ,| D
                 Win .. M| Home                      F11
@@ -30,12 +30,10 @@ start           Win .. Q| S
                  -- Administrator: CTRL .. ^ .. enter
                 Win .. space                        Win .. T| A| N| B| X
 
-tools           Win .. V| W| G                      Win .. CTRL .. C
-                Win .. ^ .. C
+tools           Win .. V| W| G
 
                 Win .. =| Esc                       Win .. +| -
                 CTRL .. ALT .. D| F| L
-                ^ .. Win .. F
                 CTRL .. Win .. O
 
                 Win .. I                            Win .. R
@@ -44,7 +42,7 @@ tools           Win .. V| W| G                      Win .. CTRL .. C
 
 advanced        ^ .. F10                            CTRL .. Tab
                 Win .. CTRL .. D| Le| Ri| F4
-                CTRL .. Esc| Win                    ALT
+                CTRL| ALT .. Esc                    ALT
 
 File Explore -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 window          CTRL .. N| W                        [CTRL] .. enter
@@ -74,15 +72,16 @@ page            CTRL .. K| E| L                     ALT .. D
                 CTRL .. F                           CTRL .. R
                 CTRL .. D
 
-tools           ALT| F10 repeat F6
+tools           ALT| F10                            repeat F6
                 ALT .. F| E                         CTRL .. B
-                CTRL .. ^ .. A| D| O                CTRL .. ^ .. P
+                CTRL .. ^ .. A| D| O                ^ .. ALT .. P
 
 special         CTRL .. ^ .. T
-                CTRL .. H                           CTRL .. J
+                CTRL .. H                           CTRL| ALT .. J
 
 advanced        ^ .. Esc                            F12
-                CTRL .. U
+                CTRL .. ^ .. M
+                CTRL .. U                           ALT .. R| Z
 
 VS Code -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 navigation      CTRL .. [^] .. Le| Ri               CTRL .. ALT .. / [^] .. Ri| Le
@@ -133,17 +132,17 @@ editor          CTRL .. ^ .. A                      CTRL .. K enter
 
                 CTRL .. F| H                        [CTRL] .. [^] .. F3
                 ^ .. CTRL .. F| H
-                ALT .. C| W| R| P
+                ALT .. C| W| R| P                   [CTRL .. ALT] .. enter
 
 files           CTRL .. [^] .. N| W                 CTRL .. [ S
                 ^ .. CTRL .. T                      CTRL .. S
                 CTRL .. K R
 
 editors         CTRL .. pU| pD                      CTRL .. ALT .. [| ]
-                CTRL .. [^] .. Tab
+                CTRL .. K Q                         CTRL .. [^] .. Tab
 
                 CTRL .. 1| 2 ..                     CTRL .. K CTRL Le| Ri| Up |Do
-                CTRL ... [ALT] .. \                   CTRL .. K O
+                CTRL ... [ALT] .. \                 CTRL .. K O
 
                 CTRL .. [^] .. pU| pD
                 CTRL .. ALT .. Le| Ri               CTRL .. K .. Le| Ri| Up| Do
@@ -168,8 +167,8 @@ tools           CTRL .. P -- @, #, >                CTRL .. R
                 CTRL .. D CTRL .. P                 ALT .. L ALT .. O| C
                 CTRL .. K CTRL .. N
 
-develop         F5| CTRL .. F5| ^ .. F5             CTRL .. ^ .. F5
-                F09| ^ .. F09| CTRL .. F9
+develop         CTRL .. F5| F5| ^ .. F5             CTRL .. ^ .. F5
+                [^] .. F09                          CTRL .. F8
                 F10                                 F11| ^ .. F11
                 ^ .. CTRL .. B
 
@@ -479,10 +478,11 @@ editor          ^ .. CMD .. A                       CMD .. K enter
 
                 [OP] .. CMD .. F                    [^] .. [CMD] .. F3
                 ^ .. CMD .. F| H
-                OP .. CMD .. C| W| R| P             [OP] .. [CMD] .. return
+                OP .. CMD .. C| W| R| P             [OP .. CMD] .. return
 
 editors         OP .. CMD .. Le| Ri                 ^ .. CMD .. [| ]
-                CTRL .. [^] .. Tab                  OP .. Tab
+                CMD K .. Q                          CTRL .. [^] .. Tab
+                OP .. Tab
 
                 CMD .. 1| 2 ..                      CMD .. K CMD Le| Ri| Up |Do
                 [OP] .. CMD .. \                    CMD .. K O
@@ -516,8 +516,8 @@ tools           CMD .. P -- @, #, >                 CMD .. R
                 CMD .. K CMD .. P                   CMD .. L CMD .. O| C
                 CMD .. K CMD .. N
 
-develop         F5| CTRL .. F5| ^ .. F5             ^ .. CMD .. F5
-                F09| ^ .. F09| CMD .. F9
+develop         CTRL .. F5| F5| ^ .. F5             ^ .. CMD .. F5
+                [^] .. F09                          CMD .. F8
                 F10                                 F11| ^ .. F11
                 ^ .. CMD .. B
 
