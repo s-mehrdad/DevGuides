@@ -142,7 +142,7 @@ editors         CTRL .. pU| pD                      CTRL .. ALT .. [| ]
                 CTRL .. K Q                         CTRL .. [^] .. Tab
 
                 CTRL .. 1| 2 ..                     CTRL .. K CTRL Le| Ri| Up |Do
-                CTRL ... [ALT] .. \                 CTRL .. K O
+                CTRL .. [ALT] .. \                  CTRL .. K O
 
                 CTRL .. [^] .. pU| pD
                 CTRL .. ALT .. Le| Ri               CTRL .. K .. Le| Ri| Up| Do
@@ -231,7 +231,7 @@ editor          ALT .. 0
 
 files           CTRL .. ALT .. L| ;                 CTRL .. [ S
                 ^ .. Space F
-                CTRL .. N| S
+                CTRL .. N| S                        CTRL .. K R
 
 editors         CTRL .. ALT .. pU| pD| End| Home
                 CTRL .. ALT .. Do                   CTRL .. Tab
@@ -263,12 +263,14 @@ tools           CTRL .. T                           ALT .. `
                 ^ .. F10
                 CTRL .. K CTRL .. B
 
-develop         F5| CTRL .. F5| ^ .. F5             CTRL .. B| F7
+develop         CTRL .. F5| F5| ^ .. F5             CTRL .. B
                 [CTRL .. ALT] .. F7                 CTRL .. Break
 
                 F09                                 CTRL .. K B
                 F10| F11
                 CTRL .. ^ .. F9
+
+                CTRL .. ALT .. V A                  CTRL .. ALT .. W 1| 2 ..
 
 Qt -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 navigation      CTRL .. [^] .. Le| Ri
