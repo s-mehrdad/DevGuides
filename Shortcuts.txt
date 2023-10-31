@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 16.10.2023</changed>
+/// <changed>ʆϒʅ, 31.10.2023</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -309,7 +309,7 @@ space           CTRL .. N| O
 views           CTRL .. 1                           ^ .. CTRL .. 1| 2 ..
                 ALT .. X| O
                 [^] .. ALT .. 0
-                ALT .. Y                            ALT .. M
+                ALT .. Y| F                         ALT .. M
                 CTRL .. ^ .. I
 
 tools           CTRL .. 1| 2 ..                     ALT .. 1| 2 ..
@@ -358,8 +358,8 @@ advanced        MC                                  CTRL .. Up| Do| Le| Ri| 1| 2
                 ^ .. CMD .. 5                       CTRL .. F5| F6| F8
                 FN .. C| N| Q| A| H| D| E| F
                 CTRL .. F1| F7
-                CTRL .. CMD .. Q
                 OP .. CMD .. Esc                    CTRL .. Power
+                CTRL .. CMD .. Q
 
 dictionary      [OP] .. CMD .. F                    [^] .. CMD .. G
                 [^] .. CMD .. [| ]
@@ -368,13 +368,13 @@ music           OP .. CMD .. Le| Ri| E              ^ .. CMD .. M
 Finder -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 window          CMD .. N| T| W                      ^ .. CMD .. \
 
-file            space,  CMD .. Y                    CMD .. O
+file            space,  CMD .. Y                    CMD .. O| Do
                 return                              CMD .. Delete
                 ^ .. CMD .. N
                 CMD ..   A| C| X| V                 CMD .. [^] .. Z
 
 navigation      CMD .. [OP] .. `                    CMD .. [| ]
-                CMD .. Up| Do
+                CMD .. Up
                 ^ .. CMD .. G - FODHCRKISAU         OP .. CMD .. L
                 CMD .. K
                 OP .. Up| Do                        Up| Do| Le| Ri| Characters
@@ -402,7 +402,7 @@ page            CMD .. L
 tools           [OP] .. CMD .. -| +, CMD .. 0
                 ^ .. CMD .. B                       CTRL .. CMD .. 1| 2
                 ^ .. CMD .. L| R| D
-                CTRL .. F2                          OP .. CMD .. B
+                OP .. CMD .. B
 
 special         ^ .. CMD .. T
                 CMD .. Y                            OP .. CMD .. L
@@ -419,7 +419,7 @@ window          CMD .. T| N                         CMD .. [^] .. W
 
 page            CMD .. L
                 FN .. Up| Do| Le| Ri                space| ^ .. space
-                CMD .. [| Le| ]| Ri
+                CMD .. [| ], Le| Ri
                 CMD .. F                            CMD .. R
                 CMD .. D
 
@@ -428,7 +428,7 @@ tools           OP .. CMD .. Up| Do
                 ^ .. CMD .. A| D                    ^ .. CMD .. P
 
 special         ^ .. CMD .. T| B                    OP .. CMD .. B
-                CMD .. Y                            ^ .. CMD .. J
+                CMD .. Y                            ^| CTRL .. CMD .. J
 
 advanced        ^ .. Esc                            OP .. CMD .. I| U
                 ^ .. CMD .. M
@@ -473,7 +473,7 @@ editor          ^ .. CMD .. A                       CMD .. K enter
                 FN .. OP .. Le| Ri
 
                 OP .. CMD .. O
-                ^ .. CTRL .. CMD .. L               CTRL .. OP .. D
+                CTRL .. OP .. L                     CTRL .. OP .. D
 
                 OP .. CMD .. [| ]                   CMD .. K CMD .. L| 0| J
                 ^ .. CMD .. V
@@ -481,6 +481,10 @@ editor          ^ .. CMD .. A                       CMD .. K enter
                 [OP] .. CMD .. F                    [^] .. [CMD] .. F3
                 ^ .. CMD .. F| H
                 OP .. CMD .. C| W| R| P             [OP .. CMD] .. return
+
+files           CMD .. [^] .. N| W                  CMD .. [ S
+                ^ .. CMD .. T                       CMD .. [^] .. S
+                CMD .. K R
 
 editors         OP .. CMD .. Le| Ri                 ^ .. CMD .. [| ]
                 CMD K .. Q                          CTRL .. [^] .. Tab
@@ -491,10 +495,6 @@ editors         OP .. CMD .. Le| Ri                 ^ .. CMD .. [| ]
 
                 CMD .. K ^ .. CMD .. Le| Ri
                 CTRL .. CMD .. Le| Ri               CMD .. K .. Le| Ri| Up| Do
-
-files           CMD .. [^] .. N| W
-                ^ .. CMD .. T                       CMD .. [^] .. S
-                CMD .. K R
 
 views           CTRL| CMD .. 0
                 ^ .. CMD .. E| G| D| X
@@ -519,7 +519,7 @@ tools           CMD .. P -- @, #, >                 CMD .. R
                 CMD .. K CMD .. N
 
 develop         CTRL .. F5| F5| ^ .. F5             ^ .. CMD .. F5
-                [^] .. F09                          CMD .. F8
+                [^] .. F09                          CMD .. F9
                 F10                                 F11| ^ .. F11
                 ^ .. CMD .. B
 
@@ -625,13 +625,13 @@ editors         OP .. [^] .. Tab
                 CTRL .. E 0| 1
                 CTRL .. E 4                         CTRL .. CMD .. W
 
-space           OP .. N| O
+space           CMD .. N| O
                 [OP] .. CMD .. W                    CTRL .. OP .. CMD .. W
 
 views           FN .. CTRL .. 1                     FN .. ^ .. CMD .. 1| 2 ..
                 CTRL .. X| O
                 [^] .. CMD .. 0
-                CTRL .. S                           CTRL .. OP .. M
+                CTRL .. Y| F                        CTRL .. OP .. M
                 CTRL .. ^ .. I
 
 tools           CTRL .. 1| 2 ..                     CMD .. 1| 2 ..
@@ -642,5 +642,3 @@ tools           CTRL .. 1| 2 ..                     CMD .. 1| 2 ..
 develop         CMD .. R| B                         CMD .. Y
                 F08| CMD .. F08
                 ^ .. CMD .. O| I| T
-
-settings        CMD .. ,
