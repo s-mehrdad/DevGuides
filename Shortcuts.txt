@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 31.10.2023</changed>
+/// <changed>ʆϒʅ, 16.11.2023</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -121,13 +121,14 @@ infos           CTRL .. K CTRL .. I                 CTRL .. .
 
 editor          CTRL .. ^ .. A                      CTRL .. K enter
                 CTRL| ^ .. ALT .. 0
-                CTRL .. [^] .. '                    CTRL .. ALT .. '
+                CTRL .. [^] .. '                    CTRL .. ALT .. Backspace
+                CTRL .. ALT .. [^] .. '
                 ALT .. Le| Ri
 
                 ALT .. O
                 CTRL .. ^ .. ALT .. L               CTRL .. ALT .. D
 
-                CTRL .. ^ .. [| ]                   CTRL .. K CTRL .. L| 0| J
+                CTRL .. ^ .. ∑[| ]                   CTRL .. K CTRL .. L| 0| J
                 ^ .. CTRL .. V
 
                 CTRL .. F| H                        [CTRL] .. [^] .. F3
@@ -469,7 +470,7 @@ infos           CMD .. K CMD .. I                   CMD .. .
 
 editor          ^ .. CMD .. A                       CMD .. K enter
                 ^ .. CMD .. 0                       OP .. CMD .. 0
-                [^] .. OP .. CMD .. '
+                [^] .. OP .. CMD .. '| delete       [^] .. CTRL .. OP .. CMD .. '
                 FN .. OP .. Le| Ri
 
                 OP .. CMD .. O
