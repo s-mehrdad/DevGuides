@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 16.11.2023</changed>
+/// <changed>ʆϒʅ, 05.01.2024</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -151,7 +151,7 @@ editors         CTRL .. pU| pD                      CTRL .. ALT .. [| ]
 views           CTRL .. Q| 0                        CTRL .. K E
                 ^ .. CTRL .. E| G| D| X| F| H
 
-                CTRL .. B
+                CTRL .. B                           CTRL .. K Z
 
                 ^ .. CTRL .. M                      ^ .. CTRL .. U
                 ^ .. CTRL .. Y
@@ -173,8 +173,8 @@ develop         CTRL .. F5| F5| ^ .. F5             CTRL .. ^ .. F5
                 F10                                 F11| ^ .. F11
                 ^ .. CTRL .. B
 
-settings        ^ .. F10                            CTRL .. K CTRL .. S| A| E
-                CTRL .. ,                           ^ .. F9
+settings        CTRl .. ,                           CTRL .. K CTRL .. S| A| E
+                ^ .. F9                             ^ .. F10
                 CTRL .. K CTRL .. T
 
 VS -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
@@ -218,7 +218,7 @@ infos           CTRL .. K CTRL .. I                 CTRL .. .
 editor          ALT .. 0
                 CTRL .. [^] .. ]
                 CTRL .. [^] .. -
-                
+
                 CTRL .. K CTRL .. O| J
                 CTRL .. ^ .. ALT .. L               CTRL .. ALT .. D
 
@@ -501,7 +501,7 @@ views           CTRL| CMD .. 0
                 ^ .. CMD .. E| G| D| X
                 CTRL .. [^] .. Q                    CMD .. K E
 
-                CMD .. B
+                CMD .. B                            CMD .. K Z
 
                 ^ .. CMD .. M                       ^ .. CMD .. U
                 ^ .. CMD .. Y
@@ -524,8 +524,8 @@ develop         CTRL .. F5| F5| ^ .. F5             ^ .. CMD .. F5
                 F10                                 F11| ^ .. F11
                 ^ .. CMD .. B
 
-settings        ^ .. F10                            CMD .. K CMD .. A| E
-                CMD .. ,                            ^ .. F9
+settings        CMD .. ,                            CMD .. K CMD .. A| E
+                ^ .. F9                             ^ .. F10
                 CMD .. K CMD .. T
 
 XCode -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
