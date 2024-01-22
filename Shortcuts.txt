@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 05.01.2024</changed>
+/// <changed>ʆϒʅ, 22.01.2024</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -72,12 +72,13 @@ page            CTRL .. K| E| L                     ALT .. D
                 CTRL .. F                           CTRL .. R
                 CTRL .. D
 
-tools           ALT| F10                            repeat F6
-                ALT .. F| E                         CTRL .. B
+tools           CTRL .. B
                 CTRL .. ^ .. A| D| O                ^ .. ALT .. P
 
-special         CTRL .. ^ .. T
+special         CTRL .. ^ .. T| B
+                ALT .. F| E
                 CTRL .. H                           CTRL| ALT .. J
+                ALT| F10                            repeat F6
 
 advanced        ^ .. Esc                            F12
                 CTRL .. ^ .. M
@@ -400,13 +401,12 @@ page            CMD .. L
                 CMD .. F                            CMD .. D
                 CMD .. R                            CMD .. .
 
-tools           [OP] .. CMD .. -| +, CMD .. 0
+special         ^ .. CMD .. T
+                [OP] .. CMD .. -| +, CMD .. 0
+                CMD .. Y                            OP .. CMD .. L
                 ^ .. CMD .. B                       CTRL .. CMD .. 1| 2
                 ^ .. CMD .. L| R| D
                 OP .. CMD .. B
-
-special         ^ .. CMD .. T
-                CMD .. Y                            OP .. CMD .. L
 
 advanced        OP .. CMD .. I                      OP .. CMD .. U
                 CTRL .. CMD .. R
@@ -424,11 +424,11 @@ page            CMD .. L
                 CMD .. F                            CMD .. R
                 CMD .. D
 
-tools           OP .. CMD .. Up| Do
-                CMD .. B
+tools           CMD .. B
                 ^ .. CMD .. A| D                    ^ .. CMD .. P
 
 special         ^ .. CMD .. T| B                    OP .. CMD .. B
+                OP .. CMD .. Up| Do
                 CMD .. Y                            ^| CTRL .. CMD .. J
 
 advanced        ^ .. Esc                            OP .. CMD .. I| U
@@ -474,7 +474,7 @@ editor          ^ .. CMD .. A                       CMD .. K enter
                 FN .. OP .. Le| Ri
 
                 OP .. CMD .. O
-                CTRL .. OP .. L                     CTRL .. OP .. D
+                CTRL .. [OP] .. L                   CTRL .. OP .. D
 
                 OP .. CMD .. [| ]                   CMD .. K CMD .. L| 0| J
                 ^ .. CMD .. V
