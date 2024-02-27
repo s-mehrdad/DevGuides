@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 22.01.2024</changed>
+/// <changed>ʆϒʅ, 22.02.2024</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -434,6 +434,27 @@ special         ^ .. CMD .. T| B                    OP .. CMD .. B
 advanced        ^ .. Esc                            OP .. CMD .. I| U
                 ^ .. CMD .. M
 
+Firefox -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+window          CMD .. T| N                         CMD .. [^] .. W
+                OP .. CMD .. Le| Ri                 ^ .. CMD .. [| ]
+                CTRL .. [^] .. pU| pD
+                CTRL .. [^] .. Tab
+                CMD .. 1| 2 ..
+
+page            CMD .. L
+                FN .. Up| Do| Le| Ri                space| ^ .. space
+                CMD .. [| ], Le| Ri
+                CMD .. F                            CMD .. R
+                CMD .. D
+
+special         CMD .. B
+                ^ .. CMD .. T| B                    OP .. CMD .. B
+                ^ .. CMD .. A                       ^ .. CMD .. P
+                ^ .. CMD .. H                       CMD .. J
+
+advanced        ^ .. Esc                            OP .. CMD .. I| U
+                OP .. CMD .. M
+
 VS Code -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 navigation      [CTRL] .. OP .. [^] .. Le| Ri       CMD .. [^] .. Le| Ri
                 CTRL| OP| CMD .. pU| pD             CMD .. [^] .. Up| Do
@@ -569,6 +590,7 @@ editor          [^] .. CMD .. J                     ^ .. OP .. E
                 [^] .. [OP] .. CMD .. G
 
 editors         ^ .. CMD .. [| ]                    CTRL .. [^] .. `
+                OP .. CMD .. `
 
                 CTRL .. [OP] .. CMD .. T            ^ .. CTRL .. CMD .. W
 
