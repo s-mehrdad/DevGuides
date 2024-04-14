@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 22.02.2024</changed>
+/// <changed>ʆϒʅ, 14.04.2024</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -351,9 +351,9 @@ apps            Apps Key                            [OP] .. CMD .. space
                 CTRL .. CMD .. D
                 CTRL .. OP .. space                 CTRL .. [^] .. space
                 CTRL .. F3                          OP .. CMD .. D
- 
+
 tools           OP .. CMD .. F5
-                CTRL .. CMD .. space
+                CTRL .. CMD .. space                ~: CMD .. space
 
 advanced        MC                                  CTRL .. Up| Do| Le| Ri| 1| 2..
                 CMD .. ,                            OP .. Esc
