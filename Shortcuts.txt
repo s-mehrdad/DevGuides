@@ -6,7 +6,7 @@
 /// created by Mehrdad Soleimanimajd on 24.10.2021
 /// </summary>
 /// <created>ʆϒʅ, 24.10.2021</created>
-/// <changed>ʆϒʅ, 14.04.2024</changed>
+/// <changed>ʆϒʅ, 08.11.2024</changed>
 // ===========================================================================
 the folloWing is a sum of hours research in internet and noted to be quick.
 references:     Applications themselves
@@ -349,11 +349,11 @@ windows         CMD .. Q, CMD .. [^] .. W           CTRL .. F4
 
 apps            Apps Key                            [OP] .. CMD .. space
                 CTRL .. CMD .. D
-                CTRL .. OP .. space                 CTRL .. [^] .. space
+                CTRL .. [^] .. space
                 CTRL .. F3                          OP .. CMD .. D
 
 tools           OP .. CMD .. F5
-                CTRL .. CMD .. space                ~: CMD .. space
+                CTRL .. CMD .. space                CTRL .. OP .. space
 
 advanced        MC                                  CTRL .. Up| Do| Le| Ri| 1| 2..
                 CMD .. ,                            OP .. Esc
@@ -361,7 +361,7 @@ advanced        MC                                  CTRL .. Up| Do| Le| Ri| 1| 2
                 FN .. C| N| Q| A| H| D| E| F
                 CTRL .. F1| F7
                 OP .. CMD .. Esc                    CTRL .. Power
-                CTRL .. CMD .. Q
+                [^] .. CTRL .. CMD .. Q
 
 dictionary      [OP] .. CMD .. F                    [^] .. CMD .. G
                 [^] .. CMD .. [| ]
